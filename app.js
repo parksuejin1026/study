@@ -1,0 +1,97 @@
+'use strict';
+const $=id=>document.getElementById(id), QUESTIONS=window.QUESTIONS, KEY='toeic-midterm-v1';
+const escapeHTML=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let state={version:1,items:{},exams:[]},session=null,position=0,noteId=null,timer=null,storageAvailable=true;
+try{const saved=localStorage.getItem(KEY);if(saved){const parsed=JSON.parse(saved);if(parsed.version===1&&parsed.items&&Array.isArray(parsed.exams))state=parsed;}}catch{storageAvailable=false;}
+const record=id=>state.items[id]||{};
+function toast(message){$('toast').textContent=message;$('toast').style.display='block';clearTimeout(toast.timeout);toast.timeout=setTimeout(()=>$('toast').style.display='none',3500);}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));storageAvailable=true;return true;}catch{storageAvailable=false;toast('자동 저장을 사용할 수 없습니다. 기록 내보내기로 백업하세요.');return false;}}
+function update(id,patch){state.items[id]={...record(id),...patch,updatedAt:new Date().toISOString()};return save();}
+function shuffle(values){const a=[...values];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function show(view){for(const id of ['home','study','result'])$(id).hidden=id!==view;}
+function dashboard(){
+ $('total').textContent=new Set(QUESTIONS.map(q=>q.sentence)).size;
+ $('attempted').textContent=QUESTIONS.filter(q=>record(q.id).attempts).length;
+ $('wrong').textContent=QUESTIONS.filter(q=>record(q.id).wrong&&!record(q.id).mastered).length;
+ $('mastered').textContent=QUESTIONS.filter(q=>record(q.id).mastered).length;
+ $('scope-note').textContent=`중복을 제외한 예문 ${new Set(QUESTIONS.map(q=>q.sentence)).size}개 · 밑줄 빈칸 ${QUESTIONS.length}개. 한 예문에 여러 밑줄이 있으면 각각 학습합니다.`;
+ $('weeks').innerHTML='';
+ const names={2:'어휘와 전치사의 연결',3:'토익 기본 어휘',4:'채용과 업무',5:'사무실과 직장 생활',6:'주차별 핵심 어휘',7:'주차별 핵심 어휘'};
+ for(let week=2;week<=7;week++){
+  const all=QUESTIONS.filter(q=>q.week===week),active=all.filter(q=>!record(q.id).mastered),done=all.filter(q=>record(q.id).mastered).length;
+  const b=document.createElement('button');b.className='week-card';b.innerHTML=`<span class="number">WEEK ${String(week).padStart(2,'0')}</span><span class="arrow">↗</span><h3>${week}주차</h3><p>${names[week]}</p><p>예문 ${new Set(all.map(q=>q.sentence)).size}개 · 빈칸 ${all.length}개</p><p>학습 가능 ${active.length} · 암기 완료 ${done}</p><div class="mini-progress"><i style="width:${done/all.length*100}%"></i></div>`;
+  b.onclick=()=>start(active,`${week}주차 학습`,false);$('weeks').append(b);
+ }
+}
+function optionsFor(q){
+ const normalize=s=>s.toLowerCase().trim();
+ const seen=new Set([normalize(q.answer)]),pool=[];
+ const candidates=shuffle(QUESTIONS.filter(x=>x.week===q.week&&x.lesson===q.lesson)).concat(shuffle(QUESTIONS));
+ for(const x of candidates){const key=normalize(x.answer);if(seen.has(key))continue;seen.add(key);pool.push(x.answer);if(pool.length===3)break;}
+ return shuffle([q.answer,...pool]);
+}
+function start(pool,title,mock){
+ if(!pool.length){toast('학습할 문제가 없습니다. 암기 완료 관리에서 문제를 해제할 수 있습니다.');return;}
+ if(mock&&pool.length<35){toast(`암기 완료를 제외하면 ${pool.length}문항입니다. 35문항 모의고사를 위해 암기 완료를 해제하세요.`);return;}
+ // Avoid asking multiple blanks from the same sentence within a mock exam.
+ let selected=shuffle(pool);
+ if(mock){const sentences=new Set();selected=selected.filter(q=>{if(sentences.has(q.sentence))return false;sentences.add(q.sentence);return true;});if(selected.length<35){toast('서로 다른 예문이 35개 미만입니다. 암기 완료 문제를 해제하세요.');return;}selected=selected.slice(0,35);}
+ session={title,mock,questions:selected,answers:{},options:{},started:Date.now(),deadline:mock?Date.now()+50*60*1000:null,finished:false};
+ selected.forEach(q=>session.options[q.id]=optionsFor(q));position=0;show('study');render();
+ clearInterval(timer);if(mock){tick();timer=setInterval(tick,1000);}else $('timer').textContent='';
+ $('study').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function tick(){if(!session?.mock||session.finished)return;const seconds=Math.max(0,Math.ceil((session.deadline-Date.now())/1000));$('timer').textContent=`남은 시간 ${String(Math.floor(seconds/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`;if(!seconds)finish();}
+function render(){
+ const q=session.questions[position],a=session.answers[q.id];
+ $('session-title').textContent=session.title;$('q-meta').textContent=`${q.week}주차 · ${q.lesson}교시 · PDF ${q.page}쪽`;$('position').textContent=`${position+1} / ${session.questions.length}`;
+ $('bar').style.width=`${(position+1)/session.questions.length*100}%`;
+ $('sentence').innerHTML=escapeHTML(q.sentence.slice(0,q.start))+'<span class="blank">________</span>'+escapeHTML(q.sentence.slice(q.end));
+ $('options').innerHTML='';session.options[q.id].forEach((value,i)=>{
+  const b=document.createElement('button');b.innerHTML=`<span>${'ABCD'[i]}</span>${escapeHTML(value)}`;b.disabled=!!a;
+  if(a&&value===q.answer)b.classList.add('correct');if(a&&a.choice===value&&value!==q.answer)b.classList.add('incorrect');
+  b.onclick=()=>answer(q,value);$('options').append(b);
+ });
+ $('feedback').hidden=!a;
+ if(a)$('feedback').innerHTML=`<h3>${a.correct?'정답입니다 ✓':'다시 기억해 보세요'}</h3><p><b>정답</b> ${escapeHTML(q.answer)} · ${escapeHTML(q.meaning||'뜻 확인 필요')}</p><p>${escapeHTML(q.translation||'해석 확인 필요')}</p><p><small>${escapeHTML(q.translationSource||'')}</small></p><a target="_blank" rel="noopener" href="${encodeURI(q.file)}#page=${q.page}">원본 PDF ${q.page}쪽 확인 ↗</a>`;
+ $('memorize').checked=!!record(q.id).mastered;$('prev').disabled=position===0;$('next').disabled=!a&& !session.mock;
+ $('next').textContent=position===session.questions.length-1?'학습 결과 보기 →':'다음 문제 →';
+ $('note').textContent=record(q.id).note?'오답 노트 · 메모 있음':'오답 노트';
+}
+function answer(q,choice){if(session.answers[q.id])return;const correct=choice===q.answer;session.answers[q.id]={choice,correct};const prev=record(q.id);update(q.id,{attempts:(prev.attempts||0)+1,correctCount:(prev.correctCount||0)+(correct?1:0),wrong:!correct,lastChoice:choice});dashboard();render();}
+function finish(){
+ if(!session||session.finished)return;session.finished=true;clearInterval(timer);
+ const answered=Object.keys(session.answers).length,correct=Object.values(session.answers).filter(a=>a.correct).length,total=session.questions.length;
+ const wrong=session.questions.filter(q=>!session.answers[q.id]?.correct);
+ for(const q of wrong)if(!session.answers[q.id])update(q.id,{wrong:true});
+ if(session.mock){state.exams.unshift({date:new Date().toISOString(),correct,total,answered,seconds:Math.round((Date.now()-session.started)/1000)});state.exams=state.exams.slice(0,100);save();}
+ show('result');dashboard();$('result').innerHTML=`<div class="result-card"><p class="eyebrow">${session.mock?'MOCK EXAM':'STUDY'} COMPLETE</p><h2>${escapeHTML(session.title)} 결과</h2><div class="score">${correct}<small> / ${total}</small></div><p>정답률 ${Math.round(correct/total*100)}% · 오답 ${answered-correct}개 · 미응답 ${total-answered}개</p><button id="result-retry" class="primary">이번 오답·미응답 다시 풀기</button><button id="result-home">학습 목록으로</button><div class="result-list">${wrong.map(q=>`<p>${q.week}주차 ${q.lesson}교시 ${q.page}쪽 · ${escapeHTML(q.sentence)}<br><b>${escapeHTML(q.answer)}</b></p>`).join('')}</div></div>`;
+ $('result-retry').onclick=()=>start(wrong.filter(q=>!record(q.id).mastered),'이번 오답 다시 풀기',false);$('result-home').onclick=()=>show('home');$('result').scrollIntoView({behavior:'smooth'});
+}
+$('next').onclick=()=>{if(position===session.questions.length-1)finish();else{position++;render();}};
+$('prev').onclick=()=>{if(position>0){position--;render();}};
+$('exit').onclick=()=>{clearInterval(timer);show('home');dashboard();};
+$('mock').onclick=()=>start(QUESTIONS.filter(q=>!record(q.id).mastered),'35문항 모의고사',true);
+$('retry').onclick=()=>start(QUESTIONS.filter(q=>record(q.id).wrong&&!record(q.id).mastered),'오답만 다시 풀기',false);
+$('memorize').onchange=e=>{update(session.questions[position].id,{mastered:e.target.checked});dashboard();};
+$('note').onclick=()=>{const q=session.questions[position];noteId=q.id;$('note-context').textContent=`${q.week}주차 ${q.lesson}교시 · ${q.page}쪽 / ${q.sentence.slice(0,q.start)}________${q.sentence.slice(q.end)}`;$('note-text').value=record(q.id).note||'';$('note-status').textContent='입력할 때 자동 저장됩니다.';$('note-dialog').showModal();};
+$('note-text').oninput=()=>{$('note-status').textContent=update(noteId,{note:$('note-text').value})?'자동 저장됨':'저장 실패 · 기록 내보내기로 백업하세요.';};
+$('note-close').onclick=()=>$('note-dialog').close();$('note-dialog').onclose=()=>{if(session&&!session.finished)render();};
+$('records').onclick=()=>{$('history').innerHTML='<h3>최근 모의고사</h3>'+ (state.exams.length?state.exams.map(e=>`<p>${escapeHTML(new Date(e.date).toLocaleString('ko-KR'))} · ${e.correct}/${e.total} · ${Math.floor(e.seconds/60)}분 ${e.seconds%60}초</p>`).join(''):'<p>아직 모의고사 기록이 없습니다.</p>');$('storage-status').textContent=storageAvailable?'이 브라우저에 자동 저장 중입니다.':'자동 저장을 사용할 수 없습니다. 기록을 내보내세요.';$('records-dialog').showModal();};
+$('export').onclick=()=>{const blob=new Blob([JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`toeic-study-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+$('import').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{
+ if(file.size>5*1024*1024)throw Error('파일이 너무 큽니다.');const data=JSON.parse(await file.text());if(data.version!==1||!data.items||typeof data.items!=='object'||Array.isArray(data.items)||!Array.isArray(data.exams))throw Error('지원하지 않는 기록 형식입니다.');
+ const known=new Set(QUESTIONS.map(q=>q.id)),items={};
+ for(const [id,r] of Object.entries(data.items)){
+  if(!known.has(id))continue;if(!r||typeof r!=='object')throw Error('문제 기록이 올바르지 않습니다.');
+  for(const key of ['attempts','correctCount'])if(r[key]!==undefined&&(!Number.isInteger(r[key])||r[key]<0))throw Error('학습 횟수가 올바르지 않습니다.');
+  for(const key of ['mastered','wrong'])if(r[key]!==undefined&&typeof r[key]!=='boolean')throw Error('학습 상태가 올바르지 않습니다.');
+  if(r.note!==undefined&&(typeof r.note!=='string'||r.note.length>100000))throw Error('메모가 올바르지 않습니다.');
+  items[id]={attempts:r.attempts||0,correctCount:r.correctCount||0,mastered:!!r.mastered,wrong:!!r.wrong,note:r.note||'',updatedAt:new Date().toISOString()};
+ }
+ const exams=data.exams.filter(x=>x&&Number.isInteger(x.correct)&&Number.isInteger(x.total)&&x.correct>=0&&x.correct<=x.total&&x.total<=QUESTIONS.length&&Number.isFinite(x.seconds)&&x.seconds>=0&&!isNaN(Date.parse(x.date))).map(x=>({date:x.date,correct:x.correct,total:x.total,answered:x.answered||0,seconds:x.seconds}));
+ state.items={...state.items,...items};state.exams=[...new Map([...exams,...state.exams].map(x=>[x.date,x])).values()].slice(0,100);const ok=save();dashboard();$('records-dialog').close();toast(ok?`${Object.keys(items).length}개 문제 기록을 가져왔습니다.`:'가져왔지만 브라우저 저장에 실패했습니다. 내보내기로 백업하세요.');
+ }catch(error){toast(`가져오기 실패: ${error.message}`);}finally{e.target.value='';}};
+$('manage').onclick=()=>{renderMastery();$('manage-dialog').showModal();};
+function renderMastery(){const items=QUESTIONS.filter(q=>record(q.id).mastered);$('mastery-list').innerHTML='';if(!items.length){$('mastery-list').textContent='아직 암기 완료한 문제가 없습니다.';return;}for(const q of items){const row=document.createElement('div');row.className='mastery-row';const p=document.createElement('p');p.textContent=`${q.week}주차 ${q.lesson}교시 ${q.page}쪽 · ${q.answer}`;const b=document.createElement('button');b.textContent='해제';b.onclick=()=>{update(q.id,{mastered:false});dashboard();renderMastery();};row.append(p,b);$('mastery-list').append(row);}}
+dashboard();

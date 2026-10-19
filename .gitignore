@@ -1,0 +1,7 @@
+.tools/
+.qa/
+__pycache__/
+check*.png
+sample.txt
+toeic-study.zip
+*_02*_2*.pdf
