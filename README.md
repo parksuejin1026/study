@@ -4,7 +4,9 @@
 
 ## GitHub Pages
 
-이 폴더의 `index.html`, `style.css`, `app.js`, `questions.js`, `.nojekyll`과 원본 PDF들을 저장소 루트에 올립니다. 저장소 Settings → Pages에서 Deploy from a branch를 선택하고 해당 브랜치의 `/ (root)`를 지정합니다. 저장소 이름이 붙는 하위 경로에서도 동작합니다. 이 작업에서는 GitHub 업로드나 공개 배포를 하지 않았습니다.
+배포 주소: https://parksuejin1026.github.io/study/
+
+이 폴더의 `index.html`, `style.css`, `app.js`, `questions.js`, `.nojekyll`과 원본 PDF들을 저장소 루트에 올립니다. 저장소 Settings → Pages에서 Deploy from a branch를 선택하고 `main` 브랜치의 `/ (root)`를 지정합니다. 저장소 이름이 붙는 하위 경로에서도 동작합니다.
 
 ## 학습 범위
 
