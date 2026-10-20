@@ -2,6 +2,7 @@ import sys, re, json, hashlib
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'.tools'))
 import pymupdf
+from question_rules import prepare_questions
 root=Path(__file__).resolve().parents[1]
 questions=[]
 for file in sorted(root.glob('*.pdf')):
@@ -17,7 +18,9 @@ for file in sorted(root.glob('*.pdf')):
     chars=[c for s in l['spans'] for c in s['chars']]
     t=''.join(c['c'] for c in chars).strip()
     if t:lines.append((t,chars,l['bbox']))
-  under=[d['rect'] for d in p.get_drawings() if 0<d['rect'].height<1.6 and d['rect'].width>4]
+  # Week 3 uses blue for the vocabulary being taught and black for glosses.
+  # Later weeks use black for the actual study targets too; keep those.
+  under=[d['rect'] for d in p.get_drawings() if 0<d['rect'].height<1.6 and d['rect'].width>4 and (week!=3 or (d.get('fill') or d.get('color') or (0,0,0))[2]>.4)]
   sentences=[]; current=[]
   for t,chars,box in lines:
    if re.match(r'^[A-Za-z]',t) and not re.search('[가-힣:]',t) and (len(t.split())>=3 or current) and not t.startswith(('Collocation','CV(')):
@@ -49,6 +52,7 @@ for file in sorted(root.glob('*.pdf')):
     prior=[t for t,_,b in lines if b[1]<chars[0]['bbox'][1] and re.search('[가-힣]',t) and b[1]>chars[0]['bbox'][1]-90 and not any(x in t for x in ['다지기','예문','어휘'])]
     identity=hashlib.sha256(f'{file.name}|{page_no}|{sentence}|{start}|{end}'.encode()).hexdigest()[:12]
     questions.append(dict(id=f'w{week}l{lesson}p{page_no}-{identity}',week=week,lesson=lesson,page=page_no,file=file.name,sentence=sentence,answer=answer,start=start,end=end,meaning=prior[-1] if prior else '',translation=translation))
+questions=prepare_questions(questions)
 (root/'questions.json').write_text(json.dumps(questions,ensure_ascii=False,indent=2),encoding='utf-8')
 (root/'questions.js').write_text('window.QUESTIONS = '+json.dumps(questions,ensure_ascii=False)+';',encoding='utf-8')
 print('Questions:',len(questions))
