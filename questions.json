@@ -11,6 +11,12 @@
     "end": 10,
     "meaning": "입다",
     "translation": "그녀는 밖에 나가기 전에 코트를 입었다.",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 10
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -25,6 +31,12 @@
     "end": 38,
     "meaning": "의지하다",
     "translation": "힘든 시기에 우리는 종종 친구들에게 의지한다.",
+    "blanks": [
+      {
+        "start": 31,
+        "end": 38
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -39,6 +51,12 @@
     "end": 16,
     "meaning": "믿다, 신뢰하다",
     "translation": "그가 프로젝트를 제시간에 끝낼 것이라고 믿어도 된다.",
+    "blanks": [
+      {
+        "start": 8,
+        "end": 16
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -53,6 +71,12 @@
     "end": 14,
     "meaning": "집중하다",
     "translation": "이 일을 끝내는 데 집중하자.",
+    "blanks": [
+      {
+        "start": 6,
+        "end": 14
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -67,6 +91,12 @@
     "end": 33,
     "meaning": "~로 이어지다",
     "translation": "사탕을 너무 많이 먹으면 복통이 생길 수 있다.",
+    "blanks": [
+      {
+        "start": 26,
+        "end": 33
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -81,6 +111,12 @@
     "end": 28,
     "meaning": "~와 비교되다",
     "translation": "사과는 맛의 차이 때문에 종종 오렌지와 비교된다.",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 28
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -95,6 +131,12 @@
     "end": 17,
     "meaning": "~에 응답하다",
     "translation": "내일까지 이메일에 답장해 주세요.",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 17
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -109,34 +151,36 @@
     "end": 42,
     "meaning": "~을 참고하다",
     "translation": "선생님은 학생들에게 교과서를 참고하라고 요청했다.",
+    "blanks": [
+      {
+        "start": 34,
+        "end": 42
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w2l1p7-dd2ad11a78bb",
+    "id": "w2l1p7-965c7df26844",
     "week": 2,
     "lesson": 1,
     "page": 7,
     "file": "초급토익어휘_02주_1교시.pdf",
     "sentence": "The umbrella kept me from getting wet in the rain.",
-    "answer": "kept",
+    "answer": "kept … from",
     "start": 13,
-    "end": 17,
-    "meaning": "막았다 (keep의 과거형)",
-    "translation": "우산 덕분에 나는 비에 젖지 않았다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w2l1p7-548cfe1b3a27",
-    "week": 2,
-    "lesson": 1,
-    "page": 7,
-    "file": "초급토익어휘_02주_1교시.pdf",
-    "sentence": "The umbrella kept me from getting wet in the rain.",
-    "answer": "from",
-    "start": 21,
     "end": 25,
-    "meaning": "~하는 것으로부터 (keep/prevent A from B 구문)",
+    "meaning": "~가 …하지 못하게 막았다 (keep A from B)",
     "translation": "우산 덕분에 나는 비에 젖지 않았다.",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 17
+      },
+      {
+        "start": 21,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -151,34 +195,36 @@
     "end": 19,
     "meaning": "~을 삼가다",
     "translation": "도서관에서는 큰 소리로 말하는 것을 삼가 주세요.",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 19
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w2l1p7-66d7035440e7",
+    "id": "w2l1p7-640efeeea0b1",
     "week": 2,
     "lesson": 1,
     "page": 7,
     "file": "초급토익어휘_02주_1교시.pdf",
     "sentence": "Using sunscreen can prevent your skin from sunburn.",
-    "answer": "prevent",
+    "answer": "prevent … from",
     "start": 20,
-    "end": 27,
-    "meaning": "막다, 예방하다",
-    "translation": "자외선 차단제를 사용하면 피부가 햇볕에 타는 것을 막을 수 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w2l1p7-397feb5c959d",
-    "week": 2,
-    "lesson": 1,
-    "page": 7,
-    "file": "초급토익어휘_02주_1교시.pdf",
-    "sentence": "Using sunscreen can prevent your skin from sunburn.",
-    "answer": "from",
-    "start": 38,
     "end": 42,
-    "meaning": "~하는 것으로부터 (keep/prevent A from B 구문)",
+    "meaning": "~가 …하지 못하게 막다, 예방하다 (prevent A from B)",
     "translation": "자외선 차단제를 사용하면 피부가 햇볕에 타는 것을 막을 수 있다.",
+    "blanks": [
+      {
+        "start": 20,
+        "end": 27
+      },
+      {
+        "start": 38,
+        "end": 42
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -193,6 +239,12 @@
     "end": 22,
     "meaning": "~에서 금지되다",
     "translation": "건물 안 모든 공공 구역에서는 흡연이 금지된다.",
+    "blanks": [
+      {
+        "start": 11,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -207,6 +259,12 @@
     "end": 25,
     "meaning": "~로 이루어져 있다",
     "translation": "위원회는 다양한 부서의 구성원들로 이루어져 있다.",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -221,90 +279,84 @@
     "end": 28,
     "meaning": "~로 구성되어 있다",
     "translation": "위원회는 경험이 있는 구성원과 새 구성원 모두로 이루어져 있다.",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 28
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w2l1p8-3954c5652192",
+    "id": "w2l1p8-46863c443d5c",
     "week": 2,
     "lesson": 1,
     "page": 8,
     "file": "초급토익어휘_02주_1교시.pdf",
     "sentence": "Please inform the team of the upcoming changes in the schedule.",
-    "answer": "inform",
+    "answer": "inform … of",
     "start": 7,
-    "end": 13,
-    "meaning": "알리다",
-    "translation": "다가오는 일정 변경 사항을 팀에 알려 주세요.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w2l1p8-3fb1774a41f8",
-    "week": 2,
-    "lesson": 1,
-    "page": 8,
-    "file": "초급토익어휘_02주_1교시.pdf",
-    "sentence": "Please inform the team of the upcoming changes in the schedule.",
-    "answer": "of",
-    "start": 23,
     "end": 25,
-    "meaning": "~에 대해 (inform/notify/remind A of B 구문)",
+    "meaning": "~에게 …을 알리다 (inform A of B)",
     "translation": "다가오는 일정 변경 사항을 팀에 알려 주세요.",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 13
+      },
+      {
+        "start": 23,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w2l1p8-c72d1b87e46d",
+    "id": "w2l1p8-946bd33bcad4",
     "week": 2,
     "lesson": 1,
     "page": 8,
     "file": "초급토익어휘_02주_1교시.pdf",
     "sentence": "The company will notify employees of any updates about the policy.",
-    "answer": "notify",
+    "answer": "notify … of",
     "start": 17,
-    "end": 23,
-    "meaning": "통보하다",
-    "translation": "회사는 정책 관련 변경 사항을 직원들에게 알릴 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w2l1p8-0c2963f50f6e",
-    "week": 2,
-    "lesson": 1,
-    "page": 8,
-    "file": "초급토익어휘_02주_1교시.pdf",
-    "sentence": "The company will notify employees of any updates about the policy.",
-    "answer": "of",
-    "start": 34,
     "end": 36,
-    "meaning": "~에 대해 (inform/notify/remind A of B 구문)",
+    "meaning": "~에게 …을 통보하다 (notify A of B)",
     "translation": "회사는 정책 관련 변경 사항을 직원들에게 알릴 것이다.",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 23
+      },
+      {
+        "start": 34,
+        "end": 36
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w2l1p8-039fe13d176e",
+    "id": "w2l1p8-9f926a514c12",
     "week": 2,
     "lesson": 1,
     "page": 8,
     "file": "초급토익어휘_02주_1교시.pdf",
     "sentence": "The old photograph reminded me of the happy memories.",
-    "answer": "reminded",
+    "answer": "reminded … of",
     "start": 19,
-    "end": 27,
-    "meaning": "상기시켰다 (remind의 과거형)",
-    "translation": "그 오래된 사진은 내게 행복했던 추억을 떠올리게 했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w2l1p8-f03e13a0c21e",
-    "week": 2,
-    "lesson": 1,
-    "page": 8,
-    "file": "초급토익어휘_02주_1교시.pdf",
-    "sentence": "The old photograph reminded me of the happy memories.",
-    "answer": "of",
-    "start": 31,
     "end": 33,
-    "meaning": "~에 대해 (inform/notify/remind A of B 구문)",
+    "meaning": "~에게 …을 상기시켰다 (remind A of B)",
     "translation": "그 오래된 사진은 내게 행복했던 추억을 떠올리게 했다.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 27
+      },
+      {
+        "start": 31,
+        "end": 33
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -319,6 +371,12 @@
     "end": 30,
     "meaning": "~을 준수하다",
     "translation": "직장에서 안전 규정을 준수하는 것은 필수적이다.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 30
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -333,6 +391,12 @@
     "end": 24,
     "meaning": "~와 계속 연락하다",
     "translation": "제이크는 옛 친구들과 계속 연락한다.",
+    "blanks": [
+      {
+        "start": 5,
+        "end": 24
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -347,34 +411,36 @@
     "end": 23,
     "meaning": "~에 동의하다",
     "translation": "나는 당신에게 전적으로 동의한다. (원문의 'the you'는 어색한 표현이다.)",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 23
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w2l1p9-e246a599284b",
+    "id": "w2l1p9-005e1f3d898d",
     "week": 2,
     "lesson": 1,
     "page": 9,
     "file": "초급토익어휘_02주_1교시.pdf",
     "sentence": "The company provides employees with training opportunities.",
-    "answer": "provides",
+    "answer": "provides … with",
     "start": 12,
-    "end": 20,
-    "meaning": "제공한다",
-    "translation": "회사는 직원들에게 교육 기회를 제공한다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w2l1p9-615daf3351b3",
-    "week": 2,
-    "lesson": 1,
-    "page": 9,
-    "file": "초급토익어휘_02주_1교시.pdf",
-    "sentence": "The company provides employees with training opportunities.",
-    "answer": "with",
-    "start": 31,
     "end": 35,
-    "meaning": "~을 (provide A with B 구문)",
+    "meaning": "~에게 …을 제공한다 (provide A with B)",
     "translation": "회사는 직원들에게 교육 기회를 제공한다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 20
+      },
+      {
+        "start": 31,
+        "end": 35
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -389,6 +455,12 @@
     "end": 24,
     "meaning": "~에 지원하다",
     "translation": "그녀는 새 채용 공고에 지원하기로 했다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 24
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -403,6 +475,12 @@
     "end": 26,
     "meaning": "~에 대해 사과하다",
     "translation": "관리자는 불편을 끼친 것에 대해 사과한다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 26
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -417,6 +495,12 @@
     "end": 23,
     "meaning": "~을 요청하다",
     "translation": "고객들은 온라인 주문을 할 때 종종 도움을 요청한다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 23
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -431,6 +515,12 @@
     "end": 26,
     "meaning": "~을 설명했다",
     "translation": "책임자는 생산 일정이 지연된 이유를 설명했다.",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 26
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -445,6 +535,12 @@
     "end": 22,
     "meaning": "~행의, ~로 향하는",
     "translation": "그 기차는 중앙역으로 향한다.",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -459,6 +555,12 @@
     "end": 38,
     "meaning": "~라는 결과를 낳았다",
     "translation": "새로운 마케팅 전략은 매출 증가로 이어졌다.",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 38
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -473,6 +575,12 @@
     "end": 29,
     "meaning": "~에 참여하다",
     "translation": "직원들은 다가오는 팀워크 강화 워크숍에 참여할 것이다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 29
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -487,6 +595,12 @@
     "end": 26,
     "meaning": "~을 전문으로 하다",
     "translation": "그 회사는 친환경 제품을 전문으로 한다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 26
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -501,6 +615,12 @@
     "end": 23,
     "meaning": "~에 참여하다, 종사하다",
     "translation": "직원들은 지역사회 봉사 활동에 참여한다.",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 23
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -515,6 +635,12 @@
     "end": 31,
     "meaning": "~에 관심이 있다",
     "translation": "많은 학생들이 새로운 언어를 배우는 데 관심이 있다.",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 31
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -529,6 +655,12 @@
     "end": 7,
     "meaning": "~을 보다",
     "translation": "자료를 분석하기 위해 도표를 보세요.",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -543,6 +675,12 @@
     "end": 25,
     "meaning": "~을 가리켰다",
     "translation": "강사는 화이트보드를 가리켰다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -557,6 +695,12 @@
     "end": 19,
     "meaning": "~을 목표로 한다",
     "translation": "회사는 올해 시장 점유율을 늘리는 것을 목표로 한다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 19
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -571,6 +715,12 @@
     "end": 20,
     "meaning": "~에 놀랐다",
     "translation": "우리는 회사의 새 정책에 놀랐다.",
+    "blanks": [
+      {
+        "start": 3,
+        "end": 20
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -585,6 +735,12 @@
     "end": 16,
     "meaning": "확인하다, 확신하다",
     "translation": "모든 서류를 제출했는지 반드시 확인해 주세요.",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 16
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -599,6 +755,12 @@
     "end": 25,
     "meaning": "~로 이어지다",
     "translation": "그의 행동으로 인해 그가 일자리를 잃을 수도 있다.",
+    "blanks": [
+      {
+        "start": 18,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -613,20 +775,12 @@
     "end": 35,
     "meaning": "겪다, 경험하다",
     "translation": "많은 노인들이 은퇴의 결과로 어려움을 겪게 된다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p4-4151477369eb",
-    "week": 3,
-    "lesson": 1,
-    "page": 4,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "Many elderly people will experience problems as the result of retirement.",
-    "answer": "retirement",
-    "start": 62,
-    "end": 72,
-    "meaning": "은퇴",
-    "translation": "많은 노인들이 은퇴의 결과로 어려움을 겪게 된다.",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 35
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -641,6 +795,12 @@
     "end": 22,
     "meaning": "영향을 미치다",
     "translation": "폭우는 그 지역의 많은 부분에 영향을 미칠 것이다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -655,20 +815,12 @@
     "end": 19,
     "meaning": "조언했다",
     "translation": "관리자는 팀에게 다가오는 프로젝트를 준비하라고 조언했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p5-3c4ae208a2a4",
-    "week": 3,
-    "lesson": 1,
-    "page": 5,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The manager advised the team to prepare for the upcoming project.",
-    "answer": "upcoming",
-    "start": 48,
-    "end": 56,
-    "meaning": "다가오는",
-    "translation": "관리자는 팀에게 다가오는 프로젝트를 준비하라고 조언했다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 19
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -683,6 +835,12 @@
     "end": 28,
     "meaning": "초래했다",
     "translation": "날씨 변화로 야외 행사가 지연되었다.",
+    "blanks": [
+      {
+        "start": 22,
+        "end": 28
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -697,20 +855,12 @@
     "end": 19,
     "meaning": "목표로 한다",
     "translation": "우리 회사는 확장을 위해 해외 시장을 목표로 한다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p6-1ea173e63d48",
-    "week": 3,
-    "lesson": 1,
-    "page": 6,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "Our company targets international markets for expansion.",
-    "answer": "expansion",
-    "start": 46,
-    "end": 55,
-    "meaning": "확장",
-    "translation": "우리 회사는 확장을 위해 해외 시장을 목표로 한다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 19
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -725,20 +875,12 @@
     "end": 30,
     "meaning": "받았음을 알리다, 인정하다",
     "translation": "중요한 이메일을 받았음을 알리는 것은 중요하다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p6-67f0aec44395",
-    "week": 3,
-    "lesson": 1,
-    "page": 6,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "It is important to acknowledge the receipt of important emails.",
-    "answer": "receipt",
-    "start": 35,
-    "end": 42,
-    "meaning": "수령, 수신",
-    "translation": "중요한 이메일을 받았음을 알리는 것은 중요하다.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 30
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -753,34 +895,12 @@
     "end": 29,
     "meaning": "향상시키다",
     "translation": "새 소프트웨어는 데이터 처리의 효율성을 높일 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p6-b369446e730c",
-    "week": 3,
-    "lesson": 1,
-    "page": 6,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The new software will enhance the efficiency of data processing.",
-    "answer": "efficiency",
-    "start": 34,
-    "end": 44,
-    "meaning": "효율성",
-    "translation": "새 소프트웨어는 데이터 처리의 효율성을 높일 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p6-bf2e1fc1072a",
-    "week": 3,
-    "lesson": 1,
-    "page": 6,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The new software will enhance the efficiency of data processing.",
-    "answer": "data processing",
-    "start": 48,
-    "end": 63,
-    "meaning": "데이터 처리",
-    "translation": "새 소프트웨어는 데이터 처리의 효율성을 높일 것이다.",
+    "blanks": [
+      {
+        "start": 22,
+        "end": 29
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -795,6 +915,12 @@
     "end": 28,
     "meaning": "방해하는 것",
     "translation": "발표를 방해해서 죄송합니다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 28
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -809,20 +935,12 @@
     "end": 9,
     "meaning": "결합하는 것",
     "translation": "기술과 서비스를 결합하면 고객 만족도를 높일 수 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p7-b37c7b8ec791",
-    "week": 3,
-    "lesson": 1,
-    "page": 7,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "Combining technology and service can enhance customer satisfaction.",
-    "answer": "customer satisfaction",
-    "start": 45,
-    "end": 66,
-    "meaning": "고객 만족",
-    "translation": "기술과 서비스를 결합하면 고객 만족도를 높일 수 있다.",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -837,34 +955,12 @@
     "end": 22,
     "meaning": "~의 덕분으로 돌렸다",
     "translation": "회사는 성공의 원인을 직원들의 노고로 돌렸다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p8-47206e8a93ca",
-    "week": 3,
-    "lesson": 1,
-    "page": 8,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The airline implemented new safety measures to ensure passengers’ safety.",
-    "answer": "implemented",
-    "start": 12,
-    "end": 23,
-    "meaning": "시행했다",
-    "translation": "항공사는 승객의 안전을 보장하기 위해 새로운 안전 조치를 시행했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p8-871343d6398f",
-    "week": 3,
-    "lesson": 1,
-    "page": 8,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The airline implemented new safety measures to ensure passengers’ safety.",
-    "answer": "safety measures",
-    "start": 28,
-    "end": 43,
-    "meaning": "안전 조치",
-    "translation": "항공사는 승객의 안전을 보장하기 위해 새로운 안전 조치를 시행했다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -879,6 +975,12 @@
     "end": 53,
     "meaning": "보장하다",
     "translation": "항공사는 승객의 안전을 보장하기 위해 새로운 안전 조치를 시행했다.",
+    "blanks": [
+      {
+        "start": 47,
+        "end": 53
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -893,20 +995,12 @@
     "end": 35,
     "meaning": "피하다",
     "translation": "신중하게 계획하면 프로젝트에서 실수를 피하는 데 도움이 된다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p8-4531d3bf0540",
-    "week": 3,
-    "lesson": 1,
-    "page": 8,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "Excellent customer service is essential to retain customers.",
-    "answer": "essential",
-    "start": 30,
-    "end": 39,
-    "meaning": "필수적인",
-    "translation": "고객을 유지하려면 훌륭한 고객 서비스가 필수적이다.",
+    "blanks": [
+      {
+        "start": 30,
+        "end": 35
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -921,6 +1015,12 @@
     "end": 49,
     "meaning": "유지하다, 붙잡아 두다",
     "translation": "고객을 유지하려면 훌륭한 고객 서비스가 필수적이다.",
+    "blanks": [
+      {
+        "start": 43,
+        "end": 49
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -935,6 +1035,12 @@
     "end": 30,
     "meaning": "결정하다",
     "translation": "마케팅팀이 광고 계획을 결정할 것이다.",
+    "blanks": [
+      {
+        "start": 24,
+        "end": 30
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -949,20 +1055,12 @@
     "end": 26,
     "meaning": "발생하다",
     "translation": "실시간 발표 중에 기술적 문제가 예기치 않게 발생할 수 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p9-0256ea53e908",
-    "week": 3,
-    "lesson": 1,
-    "page": 9,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "Technical issues may occur unexpectedly during live presentations.",
-    "answer": "unexpectedly",
-    "start": 27,
-    "end": 39,
-    "meaning": "예상치 못하게",
-    "translation": "실시간 발표 중에 기술적 문제가 예기치 않게 발생할 수 있다.",
+    "blanks": [
+      {
+        "start": 21,
+        "end": 26
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -977,20 +1075,12 @@
     "end": 13,
     "meaning": "삽입하다",
     "translation": "거래를 완료하려면 신용카드를 기계에 넣어 주세요.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p9-09a9f00ff11b",
-    "week": 3,
-    "lesson": 1,
-    "page": 9,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "Please insert your credit card into the machine to complete the transaction.",
-    "answer": "transaction",
-    "start": 64,
-    "end": 75,
-    "meaning": "거래",
-    "translation": "거래를 완료하려면 신용카드를 기계에 넣어 주세요.",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 13
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1005,20 +1095,12 @@
     "end": 29,
     "meaning": "결과를 낳다",
     "translation": "원활하지 않은 의사소통은 팀원 사이에 오해를 초래할 수 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p10-61eef23901ee",
-    "week": 3,
-    "lesson": 1,
-    "page": 10,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "Poor communication can result in misunderstandings among team members.",
-    "answer": "misunderstandings",
-    "start": 33,
-    "end": 50,
-    "meaning": "오해",
-    "translation": "원활하지 않은 의사소통은 팀원 사이에 오해를 초래할 수 있다.",
+    "blanks": [
+      {
+        "start": 23,
+        "end": 29
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1033,6 +1115,12 @@
     "end": 25,
     "meaning": "이익을 주다",
     "translation": "교육 프로그램은 개인과 회사 모두에게 이익이 된다.",
+    "blanks": [
+      {
+        "start": 18,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1047,6 +1135,12 @@
     "end": 35,
     "meaning": "해결하다",
     "translation": "팀은 기술적 문제를 해결하기 위해 함께 노력했다.",
+    "blanks": [
+      {
+        "start": 28,
+        "end": 35
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1061,20 +1155,12 @@
     "end": 36,
     "meaning": "논쟁했다",
     "translation": "회의 중에 팀들은 계약 조건에 관해 논쟁했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p11-01073c375612",
-    "week": 3,
-    "lesson": 1,
-    "page": 11,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "During the meeting, the teams argued about the terms of the contract.",
-    "answer": "terms of the contract",
-    "start": 47,
-    "end": 68,
-    "meaning": "계약 조건",
-    "translation": "회의 중에 팀들은 계약 조건에 관해 논쟁했다.",
+    "blanks": [
+      {
+        "start": 30,
+        "end": 36
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1089,20 +1175,12 @@
     "end": 46,
     "meaning": "시행하는 것, 준수하도록 하는 것 (enforce의 -ing형)",
     "translation": "보안팀은 직장에서 안전 수칙이 지켜지도록 할 책임이 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p11-29cf5c5c2ec8",
-    "week": 3,
-    "lesson": 1,
-    "page": 11,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The security team is responsible for enforcing safety rules in the workplace.",
-    "answer": "safety rules",
-    "start": 47,
-    "end": 59,
-    "meaning": "안전 수칙",
-    "translation": "보안팀은 직장에서 안전 수칙이 지켜지도록 할 책임이 있다.",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 46
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1117,6 +1195,12 @@
     "end": 20,
     "meaning": "실시한다",
     "translation": "회사는 고객 만족도 조사를 실시한다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 20
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1131,6 +1215,12 @@
     "end": 23,
     "meaning": "결정하다",
     "translation": "팀은 프로젝트 예산을 결정할 것이다.",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 23
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1145,6 +1235,12 @@
     "end": 37,
     "meaning": "제한하다",
     "translation": "회사는 비용을 제한하기 위해 예산을 정했다.",
+    "blanks": [
+      {
+        "start": 32,
+        "end": 37
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1159,20 +1255,12 @@
     "end": 26,
     "meaning": "전시하다",
     "translation": "지역 예술가들은 지역사회 미술관에서 작품을 전시할 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p13-608127a95428",
-    "week": 3,
-    "lesson": 1,
-    "page": 13,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "External noise can interfere with the recording quality in the studio.",
-    "answer": "External",
-    "start": 0,
-    "end": 8,
-    "meaning": "외부의",
-    "translation": "외부 소음은 스튜디오의 녹음 품질을 저해할 수 있다.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 26
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1187,20 +1275,12 @@
     "end": 28,
     "meaning": "방해하다",
     "translation": "외부 소음은 스튜디오의 녹음 품질을 저해할 수 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p13-5156cf6e3494",
-    "week": 3,
-    "lesson": 1,
-    "page": 13,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The board decided to appoint a new leader for the project team.",
-    "answer": "board",
-    "start": 4,
-    "end": 9,
-    "meaning": "이사회",
-    "translation": "이사회는 프로젝트팀의 새 책임자를 임명하기로 결정했다.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 28
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1215,6 +1295,12 @@
     "end": 28,
     "meaning": "임명하다",
     "translation": "이사회는 프로젝트팀의 새 책임자를 임명하기로 결정했다.",
+    "blanks": [
+      {
+        "start": 21,
+        "end": 28
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1229,6 +1315,12 @@
     "end": 22,
     "meaning": "맡다, 떠맡다",
     "translation": "관리자들은 팀의 성과에 대한 책임을 맡아야 한다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1243,6 +1335,12 @@
     "end": 48,
     "meaning": "참여하다",
     "translation": "직원들은 회사 행사에 적극적으로 참여하도록 권장된다.",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 48
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1257,6 +1355,12 @@
     "end": 32,
     "meaning": "찾다, 추구하다",
     "translation": "구직자들은 전문적인 성장의 기회를 적극적으로 찾아야 한다.",
+    "blanks": [
+      {
+        "start": 28,
+        "end": 32
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1271,20 +1375,12 @@
     "end": 19,
     "meaning": "~하려고 한다",
     "translation": "회사는 시장 영향력을 확대하려고 한다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l1p14-6a00c42b717e",
-    "week": 3,
-    "lesson": 1,
-    "page": 14,
-    "file": "초급토익어휘_03주_1교시.pdf",
-    "sentence": "The company intends to expand its market influence.",
-    "answer": "market influence",
-    "start": 34,
-    "end": 50,
-    "meaning": "시장 영향력",
-    "translation": "회사는 시장 영향력을 확대하려고 한다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 19
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1299,6 +1395,12 @@
     "end": 43,
     "meaning": "만들어 내다, 발생시키다",
     "translation": "창의적인 아이디어를 만들어 내기 위해 브레인스토밍 회의를 연다.",
+    "blanks": [
+      {
+        "start": 35,
+        "end": 43
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1313,6 +1415,12 @@
     "end": 57,
     "meaning": "~인 상태로 남아 있다",
     "translation": "어려움에도 불구하고 회사의 제품 품질은 여전히 우수하다.",
+    "blanks": [
+      {
+        "start": 50,
+        "end": 57
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1327,6 +1435,12 @@
     "end": 22,
     "meaning": "~할 여력이 있다",
     "translation": "회사는 직원을 더 고용할 여력이 있다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1341,20 +1455,12 @@
     "end": 45,
     "meaning": "유지하다",
     "translation": "자동차 엔진 성능을 유지하려면 정기적인 오일 교환이 필요하다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p4-d856f82305ba",
-    "week": 3,
-    "lesson": 2,
-    "page": 4,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Regular oil changes are necessary to maintain a car's engine performance.",
-    "answer": "performance",
-    "start": 61,
-    "end": 72,
-    "meaning": "성능, 성과",
-    "translation": "자동차 엔진 성능을 유지하려면 정기적인 오일 교환이 필요하다.",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 45
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1369,62 +1475,36 @@
     "end": 20,
     "meaning": "인정했다",
     "translation": "회사는 제조상의 오류에 대한 책임을 인정했다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 20
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w3l2p4-ff4938fd1420",
-    "week": 3,
-    "lesson": 2,
-    "page": 4,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The company admitted responsibility for the manufacturing error.",
-    "answer": "manufacturing",
-    "start": 44,
-    "end": 57,
-    "meaning": "제조상의",
-    "translation": "회사는 제조상의 오류에 대한 책임을 인정했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p4-a39827805e66",
+    "id": "w3l2p4-9238d2cac3c9",
     "week": 3,
     "lesson": 2,
     "page": 4,
     "file": "초급토익어휘_03주_2교시.pdf",
     "sentence": "The hotel will provide guests with complimentary breakfast.",
-    "answer": "provide",
+    "answer": "provide … with",
     "start": 15,
-    "end": 22,
-    "meaning": "제공하다",
-    "translation": "호텔은 투숙객들에게 무료 아침 식사를 제공할 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p4-1dae7891d7dc",
-    "week": 3,
-    "lesson": 2,
-    "page": 4,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The hotel will provide guests with complimentary breakfast.",
-    "answer": "with",
-    "start": 30,
     "end": 34,
-    "meaning": "~을 (provide A with B 구문)",
+    "meaning": "~에게 …을 제공하다 (provide A with B)",
     "translation": "호텔은 투숙객들에게 무료 아침 식사를 제공할 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p4-4e5ecee6c7e6",
-    "week": 3,
-    "lesson": 2,
-    "page": 4,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The hotel will provide guests with complimentary breakfast.",
-    "answer": "complimentary",
-    "start": 35,
-    "end": 48,
-    "meaning": "무료의",
-    "translation": "호텔은 투숙객들에게 무료 아침 식사를 제공할 것이다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 22
+      },
+      {
+        "start": 30,
+        "end": 34
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1439,34 +1519,12 @@
     "end": 22,
     "meaning": "부여했다, 제공했다",
     "translation": "정부는 소규모 사업체를 지원하기 위해 재정 지원을 제공했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p5-b4c5e58beb20",
-    "week": 3,
-    "lesson": 2,
-    "page": 5,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The government granted financial assistance to support small businesses.",
-    "answer": "small",
-    "start": 55,
-    "end": 60,
-    "meaning": "작은, 소규모의",
-    "translation": "정부는 소규모 사업체를 지원하기 위해 재정 지원을 제공했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p5-5132cff0afd5",
-    "week": 3,
-    "lesson": 2,
-    "page": 5,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The government granted financial assistance to support small businesses.",
-    "answer": "businesses",
-    "start": 61,
-    "end": 71,
-    "meaning": "기업들, 사업체들",
-    "translation": "정부는 소규모 사업체를 지원하기 위해 재정 지원을 제공했다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1481,6 +1539,12 @@
     "end": 27,
     "meaning": "출시하다",
     "translation": "회사는 다음 달 새 제품군을 출시할 계획이다.",
+    "blanks": [
+      {
+        "start": 21,
+        "end": 27
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1495,6 +1559,12 @@
     "end": 32,
     "meaning": "설립하다",
     "translation": "회사는 도시에 새 사무실을 설립하기로 결정했다.",
+    "blanks": [
+      {
+        "start": 23,
+        "end": 32
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1509,6 +1579,12 @@
     "end": 47,
     "meaning": "조사하다",
     "translation": "인사부는 그 직원의 불만 사항을 조사할 것이다.",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 47
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1523,6 +1599,12 @@
     "end": 30,
     "meaning": "~에 참여하다",
     "translation": "직원들은 지역사회 봉사 프로젝트에 참여할 것이다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 30
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1537,20 +1619,12 @@
     "end": 31,
     "meaning": "시행했다",
     "translation": "프로젝트 관리자는 효율성을 높이기 위해 새 전략을 시행했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p6-6a8387c48e52",
-    "week": 3,
-    "lesson": 2,
-    "page": 6,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The project manager implemented a new strategy to improve efficiency.",
-    "answer": "efficiency",
-    "start": 58,
-    "end": 68,
-    "meaning": "효율성",
-    "translation": "프로젝트 관리자는 효율성을 높이기 위해 새 전략을 시행했다.",
+    "blanks": [
+      {
+        "start": 20,
+        "end": 31
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1565,6 +1639,12 @@
     "end": 51,
     "meaning": "예상하다",
     "translation": "지연을 피하려면 프로젝트 관리자들은 잠재적인 어려움을 예상해야 한다.",
+    "blanks": [
+      {
+        "start": 41,
+        "end": 51
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1579,20 +1659,12 @@
     "end": 26,
     "meaning": "겪다, 받다",
     "translation": "신입 직원들은 새 정책을 배우기 위해 광범위한 교육을 받을 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p7-cf02efcc739b",
-    "week": 3,
-    "lesson": 2,
-    "page": 7,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "New employees will undergo extensive training to learn new policies.",
-    "answer": "policies",
-    "start": 59,
-    "end": 67,
-    "meaning": "정책들",
-    "translation": "신입 직원들은 새 정책을 배우기 위해 광범위한 교육을 받을 것이다.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 26
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1607,20 +1679,12 @@
     "end": 40,
     "meaning": "지도하는 것",
     "translation": "관리자들은 직원들에게 안전 수칙을 지도할 책임이 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p7-9a4df51d7543",
-    "week": 3,
-    "lesson": 2,
-    "page": 7,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Managers are responsible for instructing employees on safety rules.",
-    "answer": "safety rules",
-    "start": 54,
-    "end": 66,
-    "meaning": "안전 수칙",
-    "translation": "관리자들은 직원들에게 안전 수칙을 지도할 책임이 있다.",
+    "blanks": [
+      {
+        "start": 29,
+        "end": 40
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1635,6 +1699,12 @@
     "end": 31,
     "meaning": "나누다",
     "translation": "프로젝트 관리자는 팀원들의 능력에 따라 업무를 나눌 것이다.",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 31
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1649,20 +1719,12 @@
     "end": 35,
     "meaning": "성공하다",
     "translation": "팀은 프로젝트 목표 달성에 성공하기 위해 함께 노력했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p8-1244efe0bdc5",
-    "week": 3,
-    "lesson": 2,
-    "page": 8,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The team worked together to succeed in achieving the project goals.",
-    "answer": "achieving",
-    "start": 39,
-    "end": 48,
-    "meaning": "달성하는 것",
-    "translation": "팀은 프로젝트 목표 달성에 성공하기 위해 함께 노력했다.",
+    "blanks": [
+      {
+        "start": 28,
+        "end": 35
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1677,20 +1739,12 @@
     "end": 25,
     "meaning": "준수하다",
     "translation": "주거 지역에서는 속도 제한을 준수하는 것이 중요하다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p8-94cf877b49c2",
-    "week": 3,
-    "lesson": 2,
-    "page": 8,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "It's important to observe speed limits in residential areas.",
-    "answer": "residential areas",
-    "start": 42,
-    "end": 59,
-    "meaning": "주거 지역",
-    "translation": "주거 지역에서는 속도 제한을 준수하는 것이 중요하다.",
+    "blanks": [
+      {
+        "start": 18,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1705,34 +1759,12 @@
     "end": 21,
     "meaning": "따르다",
     "translation": "직원들은 기계를 안전하게 작동하기 위한 지침을 따라야 한다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p9-06da2c369217",
-    "week": 3,
-    "lesson": 2,
-    "page": 9,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Employees must follow instructions for operating the machinery safely.",
-    "answer": "operating",
-    "start": 39,
-    "end": 48,
-    "meaning": "작동하는 것",
-    "translation": "직원들은 기계를 안전하게 작동하기 위한 지침을 따라야 한다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p9-25d48ac6caca",
-    "week": 3,
-    "lesson": 2,
-    "page": 9,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Employees must follow instructions for operating the machinery safely.",
-    "answer": "machinery",
-    "start": 53,
-    "end": 62,
-    "meaning": "기계류",
-    "translation": "직원들은 기계를 안전하게 작동하기 위한 지침을 따라야 한다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 21
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1747,6 +1779,12 @@
     "end": 31,
     "meaning": "처리하다, 다루다",
     "translation": "관리자는 어려운 상황을 처리하는 방법을 안다.",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 31
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1761,20 +1799,12 @@
     "end": 23,
     "meaning": "비교하다",
     "translation": "소비자들은 가장 좋은 거래 조건을 찾기 위해 종종 가격을 비교한다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p9-97b1b054a7c1",
-    "week": 3,
-    "lesson": 2,
-    "page": 9,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Consumers often compare prices to find the best deals.",
-    "answer": "deals",
-    "start": 48,
-    "end": 53,
-    "meaning": "거래 조건, 좋은 구매 기회",
-    "translation": "소비자들은 가장 좋은 거래 조건을 찾기 위해 종종 가격을 비교한다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 23
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1789,20 +1819,12 @@
     "end": 32,
     "meaning": "예약하다",
     "translation": "고객들은 혼잡 시간대에는 미리 테이블을 예약하도록 권고받는다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p10-4778b238601d",
-    "week": 3,
-    "lesson": 2,
-    "page": 10,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Customers are advised to reserve a table in advance during peak hours.",
-    "answer": "in advance",
-    "start": 41,
-    "end": 51,
-    "meaning": "미리",
-    "translation": "고객들은 혼잡 시간대에는 미리 테이블을 예약하도록 권고받는다.",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 32
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1817,90 +1839,36 @@
     "end": 24,
     "meaning": "~에 노출되었다",
     "translation": "아이들은 현장 학습 중 다양한 문화를 접했다.",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 24
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
-    "id": "w3l2p10-2de877df1e7f",
-    "week": 3,
-    "lesson": 2,
-    "page": 10,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Children were exposed to diverse cultures during the field trip.",
-    "answer": "field trip",
-    "start": 53,
-    "end": 63,
-    "meaning": "현장 학습",
-    "translation": "아이들은 현장 학습 중 다양한 문화를 접했다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p10-fff8cb73bd26",
+    "id": "w3l2p10-d269bb1776e4",
     "week": 3,
     "lesson": 2,
     "page": 10,
     "file": "초급토익어휘_03주_2교시.pdf",
     "sentence": "The lab is fully equipped with the state-of-the-art tools.",
-    "answer": "lab",
-    "start": 4,
-    "end": 7,
-    "meaning": "실험실, 연구실",
-    "translation": "연구실에는 최첨단 도구가 완비되어 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p10-e7b09d2e91fe",
-    "week": 3,
-    "lesson": 2,
-    "page": 10,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The lab is fully equipped with the state-of-the-art tools.",
-    "answer": "is",
+    "answer": "is … equipped with",
     "start": 8,
-    "end": 10,
-    "meaning": "~이다",
-    "translation": "연구실에는 최첨단 도구가 완비되어 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p10-d77f442c8923",
-    "week": 3,
-    "lesson": 2,
-    "page": 10,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The lab is fully equipped with the state-of-the-art tools.",
-    "answer": "equipped",
-    "start": 17,
-    "end": 25,
-    "meaning": "장비를 갖춘",
-    "translation": "연구실에는 최첨단 도구가 완비되어 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p10-efcc82bc9974",
-    "week": 3,
-    "lesson": 2,
-    "page": 10,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The lab is fully equipped with the state-of-the-art tools.",
-    "answer": "with",
-    "start": 26,
     "end": 30,
-    "meaning": "~을 (provide A with B 구문)",
+    "meaning": "~을 갖추고 있다 (be equipped with)",
     "translation": "연구실에는 최첨단 도구가 완비되어 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p10-c0080d42e3a5",
-    "week": 3,
-    "lesson": 2,
-    "page": 10,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The lab is fully equipped with the state-of-the-art tools.",
-    "answer": "state-of-the-art",
-    "start": 35,
-    "end": 51,
-    "meaning": "최첨단의",
-    "translation": "연구실에는 최첨단 도구가 완비되어 있다.",
+    "blanks": [
+      {
+        "start": 8,
+        "end": 10
+      },
+      {
+        "start": 17,
+        "end": 30
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1915,6 +1883,12 @@
     "end": 38,
     "meaning": "해결하다",
     "translation": "직원 사이의 분쟁을 해결하기 위해 대화를 나눈다.",
+    "blanks": [
+      {
+        "start": 32,
+        "end": 38
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1929,6 +1903,12 @@
     "end": 25,
     "meaning": "허용하다",
     "translation": "새 정책은 직원들이 재택근무를 할 수 있게 할 것이다.",
+    "blanks": [
+      {
+        "start": 20,
+        "end": 25
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1943,20 +1923,12 @@
     "end": 13,
     "meaning": "첨부하다",
     "translation": "지원서를 제출할 때 필요한 서류를 첨부해 주세요.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p11-a0480d714cae",
-    "week": 3,
-    "lesson": 2,
-    "page": 11,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Please attach the necessary documents when submitting your  application.",
-    "answer": "application",
-    "start": 60,
-    "end": 71,
-    "meaning": "지원서, 신청서",
-    "translation": "지원서를 제출할 때 필요한 서류를 첨부해 주세요.",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 13
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1971,34 +1943,12 @@
     "end": 21,
     "meaning": "발표하다",
     "translation": "최고경영자는 회의 중 전략적 결정을 발표할 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p12-a2510a253e9b",
-    "week": 3,
-    "lesson": 2,
-    "page": 12,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The CEO will announce a strategic decision during the conference.",
-    "answer": "strategic decision",
-    "start": 24,
-    "end": 42,
-    "meaning": "전략적 결정",
-    "translation": "최고경영자는 회의 중 전략적 결정을 발표할 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p12-d7f9ea1371f0",
-    "week": 3,
-    "lesson": 2,
-    "page": 12,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The CEO will announce a strategic decision during the conference.",
-    "answer": "conference",
-    "start": 54,
-    "end": 64,
-    "meaning": "회의",
-    "translation": "최고경영자는 회의 중 전략적 결정을 발표할 것이다.",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 21
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2013,6 +1963,12 @@
     "end": 59,
     "meaning": "통보하다",
     "translation": "비상시에는 경영진이 모든 직원에게 신속히 알릴 것이다.",
+    "blanks": [
+      {
+        "start": 53,
+        "end": 59
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2027,6 +1983,12 @@
     "end": 42,
     "meaning": "자격을 얻다",
     "translation": "인사부 직원들은 승진 자격을 얻을 수도 있다.",
+    "blanks": [
+      {
+        "start": 35,
+        "end": 42
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2041,48 +2003,12 @@
     "end": 27,
     "meaning": "검사하다",
     "translation": "기술자는 장비에 결함이 있는지 검사할 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p13-b9319b118b82",
-    "week": 3,
-    "lesson": 2,
-    "page": 13,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The technician will examine the equipment for any defects.",
-    "answer": "defects",
-    "start": 50,
-    "end": 57,
-    "meaning": "결함",
-    "translation": "기술자는 장비에 결함이 있는지 검사할 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p13-0b49725520c2",
-    "week": 3,
-    "lesson": 2,
-    "page": 13,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Effective time management is crucial to meet project deadlines.",
-    "answer": "Effective",
-    "start": 0,
-    "end": 9,
-    "meaning": "효과적인",
-    "translation": "프로젝트 마감 기한을 맞추려면 효과적인 시간 관리가 매우 중요하다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p13-7e3a82244342",
-    "week": 3,
-    "lesson": 2,
-    "page": 13,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Effective time management is crucial to meet project deadlines.",
-    "answer": "crucial",
-    "start": 29,
-    "end": 36,
-    "meaning": "매우 중요한",
-    "translation": "프로젝트 마감 기한을 맞추려면 효과적인 시간 관리가 매우 중요하다.",
+    "blanks": [
+      {
+        "start": 20,
+        "end": 27
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2097,20 +2023,12 @@
     "end": 44,
     "meaning": "충족하다, 맞추다",
     "translation": "프로젝트 마감 기한을 맞추려면 효과적인 시간 관리가 매우 중요하다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p13-213ff4295777",
-    "week": 3,
-    "lesson": 2,
-    "page": 13,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The company's financial report will reveal its annual profits.",
-    "answer": "financial report",
-    "start": 14,
-    "end": 30,
-    "meaning": "재무 보고서",
-    "translation": "회사의 재무 보고서는 연간 이익을 보여 줄 것이다.",
+    "blanks": [
+      {
+        "start": 40,
+        "end": 44
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2125,20 +2043,12 @@
     "end": 42,
     "meaning": "드러내다, 보여 주다",
     "translation": "회사의 재무 보고서는 연간 이익을 보여 줄 것이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p13-a3e2e527cc94",
-    "week": 3,
-    "lesson": 2,
-    "page": 13,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "The company's financial report will reveal its annual profits.",
-    "answer": "annual profits",
-    "start": 47,
-    "end": 61,
-    "meaning": "연간 이익",
-    "translation": "회사의 재무 보고서는 연간 이익을 보여 줄 것이다.",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 42
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2153,6 +2063,12 @@
     "end": 37,
     "meaning": "제거하다",
     "translation": "팀은 모든 어려움을 제거하기 위해 함께 노력할 것이다.",
+    "blanks": [
+      {
+        "start": 31,
+        "end": 37
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2167,34 +2083,12 @@
     "end": 22,
     "meaning": "~에 등록하다",
     "translation": "학생들은 대학교의 다양한 강좌에 등록할 수 있다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p14-6cd459cd893d",
-    "week": 3,
-    "lesson": 2,
-    "page": 14,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Continuous learning is essential to acquire new skills.",
-    "answer": "Continuous",
-    "start": 0,
-    "end": 10,
-    "meaning": "지속적인",
-    "translation": "새로운 기술을 습득하려면 지속적인 학습이 필수적이다.",
-    "translationSource": "학습용 보완 해석"
-  },
-  {
-    "id": "w3l2p14-b6f403909b34",
-    "week": 3,
-    "lesson": 2,
-    "page": 14,
-    "file": "초급토익어휘_03주_2교시.pdf",
-    "sentence": "Continuous learning is essential to acquire new skills.",
-    "answer": "essential",
-    "start": 23,
-    "end": 32,
-    "meaning": "필수적인",
-    "translation": "새로운 기술을 습득하려면 지속적인 학습이 필수적이다.",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 22
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2209,6 +2103,12 @@
     "end": 43,
     "meaning": "습득하다",
     "translation": "새로운 기술을 습득하려면 지속적인 학습이 필수적이다.",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 43
+      }
+    ],
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -2223,6 +2123,12 @@
     "end": 13,
     "meaning": "제출하다",
     "translation": "일자리공석을위해서이력서, 자기소개서를포함하여지원서를제출하세요.",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 13
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2237,34 +2143,32 @@
     "end": 40,
     "meaning": "지원 서류",
     "translation": "일자리공석을위해서이력서, 자기소개서를포함하여지원서를제출하세요.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 40
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w4l1p7-1fd667397f42",
+    "id": "w4l1p7-ffbe11866266",
     "week": 4,
     "lesson": 1,
     "page": 7,
     "file": "초급토익어휘_04주_1교시.pdf",
     "sentence": "Please submit your application materials, including your resume and cover letter for the job opening.",
-    "answer": "resume and",
+    "answer": "resume and cover letter",
     "start": 57,
-    "end": 67,
-    "meaning": "이력서와 (resume: 이력서, and: ~와)",
-    "translation": "일자리공석을위해서이력서, 자기소개서를포함하여지원서를제출하세요.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w4l1p7-dda98fc96e54",
-    "week": 4,
-    "lesson": 1,
-    "page": 7,
-    "file": "초급토익어휘_04주_1교시.pdf",
-    "sentence": "Please submit your application materials, including your resume and cover letter for the job opening.",
-    "answer": "cover letter",
-    "start": 68,
     "end": 80,
-    "meaning": "자기소개서",
+    "meaning": "이력서와 자기소개서",
     "translation": "일자리공석을위해서이력서, 자기소개서를포함하여지원서를제출하세요.",
+    "blanks": [
+      {
+        "start": 57,
+        "end": 80
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2279,6 +2183,12 @@
     "end": 100,
     "meaning": "일자리 공석, 채용 공고",
     "translation": "일자리공석을위해서이력서, 자기소개서를포함하여지원서를제출하세요.",
+    "blanks": [
+      {
+        "start": 89,
+        "end": 100
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2293,6 +2203,12 @@
     "end": 31,
     "meaning": "지원자들",
     "translation": "회사는지원자들에게이력서와자기소개를제출하도록요청한다.",
+    "blanks": [
+      {
+        "start": 21,
+        "end": 31
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2307,6 +2223,12 @@
     "end": 41,
     "meaning": "제출하다",
     "translation": "회사는지원자들에게이력서와자기소개를제출하도록요청한다.",
+    "blanks": [
+      {
+        "start": 35,
+        "end": 41
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2321,6 +2243,12 @@
     "end": 50,
     "meaning": "이력서",
     "translation": "회사는지원자들에게이력서와자기소개를제출하도록요청한다.",
+    "blanks": [
+      {
+        "start": 44,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2335,6 +2263,12 @@
     "end": 67,
     "meaning": "자기소개서",
     "translation": "회사는지원자들에게이력서와자기소개를제출하도록요청한다.",
+    "blanks": [
+      {
+        "start": 55,
+        "end": 67
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2349,6 +2283,12 @@
     "end": 47,
     "meaning": "자격을 갖춘 지원자들",
     "translation": "회사는채용공석을채우기위해자격을갖춘지원자를찾고있다.",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2363,6 +2303,12 @@
     "end": 71,
     "meaning": "일자리 공석",
     "translation": "회사는채용공석을채우기위해자격을갖춘지원자를찾고있다.",
+    "blanks": [
+      {
+        "start": 60,
+        "end": 71
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2377,6 +2323,12 @@
     "end": 7,
     "meaning": "충족하다, 맞추다",
     "translation": "직무요건을충족하려면지원자는영어를잘해야한다.",
+    "blanks": [
+      {
+        "start": 3,
+        "end": 7
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2391,6 +2343,12 @@
     "end": 27,
     "meaning": "요건",
     "translation": "직무요건을충족하려면지원자는영어를잘해야한다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 27
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2405,34 +2363,32 @@
     "end": 46,
     "meaning": "매력적인 후보자",
     "translation": "ABC 회사는학사학위를가진매력적인지원자를찾고있다.",
+    "blanks": [
+      {
+        "start": 26,
+        "end": 46
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w4l1p11-491310ebe987",
+    "id": "w4l1p11-31ff2893bb5d",
     "week": 4,
     "lesson": 1,
     "page": 11,
     "file": "초급토익어휘_04주_1교시.pdf",
     "sentence": "ABC company is seeking an attractive candidate with a bachelor's degree.",
-    "answer": "bachelor's",
+    "answer": "bachelor's degree",
     "start": 54,
-    "end": 64,
-    "meaning": "학사의 (bachelor’s degree: 학사 학위)",
-    "translation": "ABC 회사는학사학위를가진매력적인지원자를찾고있다.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w4l1p11-64d10b4bfb17",
-    "week": 4,
-    "lesson": 1,
-    "page": 11,
-    "file": "초급토익어휘_04주_1교시.pdf",
-    "sentence": "ABC company is seeking an attractive candidate with a bachelor's degree.",
-    "answer": "degree",
-    "start": 65,
     "end": 71,
-    "meaning": "학위",
+    "meaning": "학사 학위",
     "translation": "ABC 회사는학사학위를가진매력적인지원자를찾고있다.",
+    "blanks": [
+      {
+        "start": 54,
+        "end": 71
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2447,6 +2403,12 @@
     "end": 18,
     "meaning": "책임",
     "translation": "그직위에대한책임에는포함한다. / 다양한업무를수행하는것을",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 18
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2461,6 +2423,12 @@
     "end": 56,
     "meaning": "수행하는 것",
     "translation": "그직위에대한책임에는포함한다. / 다양한업무를수행하는것을",
+    "blanks": [
+      {
+        "start": 44,
+        "end": 56
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2475,6 +2443,12 @@
     "end": 71,
     "meaning": "직무, 업무들",
     "translation": "그직위에대한책임에는포함한다. / 다양한업무를수행하는것을",
+    "blanks": [
+      {
+        "start": 65,
+        "end": 71
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2489,6 +2463,12 @@
     "end": 12,
     "meaning": "초대했다",
     "translation": "그들은몇몇의후보자에게인터뷰에초대하였다.",
+    "blanks": [
+      {
+        "start": 5,
+        "end": 12
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2503,6 +2483,12 @@
     "end": 48,
     "meaning": "면접을 위해",
     "translation": "그들은몇몇의후보자에게인터뷰에초대하였다.",
+    "blanks": [
+      {
+        "start": 32,
+        "end": 48
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2517,6 +2503,12 @@
     "end": 30,
     "meaning": "계약",
     "translation": "그회사는계약을제시하였다. / 선정된후보자에게",
+    "blanks": [
+      {
+        "start": 22,
+        "end": 30
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2531,6 +2523,12 @@
     "end": 56,
     "meaning": "후보자, 지원자",
     "translation": "그회사는계약을제시하였다. / 선정된후보자에게",
+    "blanks": [
+      {
+        "start": 47,
+        "end": 56
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2545,34 +2543,32 @@
     "end": 23,
     "meaning": "선발했다",
     "translation": "GAM 회사는John을발탁하였다. / 뛰어난의사소통능력때문에",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 23
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w4l1p14-5904ebae26f3",
+    "id": "w4l1p14-97319f3cb722",
     "week": 4,
     "lesson": 1,
     "page": 14,
     "file": "초급토익어휘_04주_1교시.pdf",
     "sentence": "The candidate was highly qualified for the leadership role.",
-    "answer": "candidate",
+    "answer": "candidate was",
     "start": 4,
-    "end": 13,
-    "meaning": "후보자, 지원자",
-    "translation": "그후보자는매우적합한자격을갖추고있었다. / 그리더십역할에",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w4l1p14-9dd8a67c4e05",
-    "week": 4,
-    "lesson": 1,
-    "page": 14,
-    "file": "초급토익어휘_04주_1교시.pdf",
-    "sentence": "The candidate was highly qualified for the leadership role.",
-    "answer": "was",
-    "start": 14,
     "end": 17,
-    "meaning": "~이었다 (be동사의 과거형)",
+    "meaning": "그 후보자는 ~였다",
     "translation": "그후보자는매우적합한자격을갖추고있었다. / 그리더십역할에",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 17
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2587,6 +2583,12 @@
     "end": 38,
     "meaning": "~에 자격을 갖춘",
     "translation": "그후보자는매우적합한자격을갖추고있었다. / 그리더십역할에",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 38
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2601,6 +2603,12 @@
     "end": 15,
     "meaning": "경험이 있는",
     "translation": "그경험많은팀은그프로젝트를성공적으로수행할수있었다.",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 15
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2615,6 +2623,12 @@
     "end": 55,
     "meaning": "수행하다",
     "translation": "그경험많은팀은그프로젝트를성공적으로수행할수있었다.",
+    "blanks": [
+      {
+        "start": 46,
+        "end": 55
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2629,6 +2643,12 @@
     "end": 29,
     "meaning": "~할 자격이 있다",
     "translation": "모든직원은건강보험을받을자격이있다.",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 29
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2643,6 +2663,12 @@
     "end": 15,
     "meaning": "노동조합",
     "translation": "노조는회사와임금인상을위해협상을하였다.",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 15
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2657,34 +2683,32 @@
     "end": 59,
     "meaning": "임금 인상",
     "translation": "노조는회사와임금인상을위해협상을하였다.",
+    "blanks": [
+      {
+        "start": 50,
+        "end": 59
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w4l2p7-bedeb26f39e0",
+    "id": "w4l2p7-84e0afff8ba0",
     "week": 4,
     "lesson": 2,
     "page": 7,
     "file": "초급토익어휘_04주_2교시.pdf",
     "sentence": "The company recognized the outstanding performance of its employees and gave them bonuses.",
-    "answer": "outstanding",
+    "answer": "outstanding performance",
     "start": 27,
-    "end": 38,
-    "meaning": "뛰어난",
-    "translation": "회사는직원들의뛰어난성과를인정하고/ 보너스를지급했다.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w4l2p7-fbea4957e2f0",
-    "week": 4,
-    "lesson": 2,
-    "page": 7,
-    "file": "초급토익어휘_04주_2교시.pdf",
-    "sentence": "The company recognized the outstanding performance of its employees and gave them bonuses.",
-    "answer": "performance",
-    "start": 39,
     "end": 50,
-    "meaning": "성능, 성과",
+    "meaning": "뛰어난 성과",
     "translation": "회사는직원들의뛰어난성과를인정하고/ 보너스를지급했다.",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2699,6 +2723,12 @@
     "end": 89,
     "meaning": "상여금",
     "translation": "회사는직원들의뛰어난성과를인정하고/ 보너스를지급했다.",
+    "blanks": [
+      {
+        "start": 82,
+        "end": 89
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2713,6 +2743,12 @@
     "end": 32,
     "meaning": "추가 혜택",
     "translation": "이회사는다양한혜택을제공한다. / 탄력적인근무시간, 무료체육관회원권등",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 32
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2727,6 +2763,12 @@
     "end": 38,
     "meaning": "휴직하다",
     "translation": "일부직원은휴가를간다. / 새로운경력기회를탐색하기위해",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 38
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2741,6 +2783,12 @@
     "end": 41,
     "meaning": "유급 병가",
     "translation": "직원은받을권리가있다. / 유급병가를/ 질병에걸릴경우",
+    "blanks": [
+      {
+        "start": 26,
+        "end": 41
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2755,6 +2803,12 @@
     "end": 44,
     "meaning": "출산 휴가",
     "translation": "출산후/ 그녀는출산휴가를사용해서/ 신생아를돌보았다.",
+    "blanks": [
+      {
+        "start": 29,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2769,6 +2823,12 @@
     "end": 21,
     "meaning": "~직을 인계받다",
     "translation": "그녀는취임할예정이다. / 부서의새로운관리자로/ 다음달에",
+    "blanks": [
+      {
+        "start": 9,
+        "end": 21
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2783,6 +2843,12 @@
     "end": 44,
     "meaning": "~로 승진되었다",
     "translation": "수년간의노력끝에, 그는승진했다. / 수석프로젝트관리자로",
+    "blanks": [
+      {
+        "start": 29,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2797,6 +2863,12 @@
     "end": 53,
     "meaning": "그의 뛰어난 기여를 인정했다",
     "translation": "회사는인정했다. / 그의탁월한기여를/ 성공적인프로젝트에대한",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 53
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2811,6 +2883,12 @@
     "end": 44,
     "meaning": "그의 성취를 축하하다",
     "translation": "우리는모였다. / 축하하기위해/ 그의업적과팀에대한공헌을",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2825,6 +2903,12 @@
     "end": 37,
     "meaning": "사임했다, 물러났다",
     "translation": "퇴임후, 그는회사회장직에서물러났다.",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 37
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2839,6 +2923,12 @@
     "end": 37,
     "meaning": "그 직책을 내려놓다",
     "translation": "그는CEO직을사임하기로결정했다. / 가족과더많은시간을보내기위해",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 37
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2853,6 +2943,12 @@
     "end": 47,
     "meaning": "지명하다",
     "translation": "회사이사회는임명할예정이다. / 경험이풍부한임원을/ 새로운CEO로",
+    "blanks": [
+      {
+        "start": 38,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2867,6 +2963,12 @@
     "end": 25,
     "meaning": "전근, 이동",
     "translation": "John은회계부서로의이동을요청했다. / 새로운경력을탐색하기위해",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 25
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2881,6 +2983,12 @@
     "end": 21,
     "meaning": "근무하는 것",
     "translation": "Lisa는회사에근무해왔다. / 10년넘게/ 수석프로젝트관리자로",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 21
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2895,6 +3003,12 @@
     "end": 26,
     "meaning": "해고하다",
     "translation": "회사는여러명의직원을해고해야했다. / 재정적한계로인해",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 26
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2909,6 +3023,12 @@
     "end": 38,
     "meaning": "서류철, 폴더",
     "translation": "서류는폴더에넣어서/ 올려주세요. / 선반위에",
+    "blanks": [
+      {
+        "start": 32,
+        "end": 38
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2923,6 +3043,12 @@
     "end": 48,
     "meaning": "놓다",
     "translation": "서류는폴더에넣어서/ 올려주세요. / 선반위에",
+    "blanks": [
+      {
+        "start": 43,
+        "end": 48
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2937,6 +3063,12 @@
     "end": 18,
     "meaning": "명함들",
     "translation": "명함은보관되고있습니다. / 서랍에/ 쉽게꺼낼수있도록",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 18
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2951,6 +3083,12 @@
     "end": 43,
     "meaning": "서랍",
     "translation": "명함은보관되고있습니다. / 서랍에/ 쉽게꺼낼수있도록",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 43
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2965,6 +3103,12 @@
     "end": 59,
     "meaning": "쉬운 접근",
     "translation": "명함은보관되고있습니다. / 서랍에/ 쉽게꺼낼수있도록",
+    "blanks": [
+      {
+        "start": 48,
+        "end": 59
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2979,6 +3123,12 @@
     "end": 7,
     "meaning": "그것을 놓으세요",
     "translation": "중요한공지사항을게시하세요. / 게시판에/ 모두가볼수있도록",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 7
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -2993,6 +3143,12 @@
     "end": 24,
     "meaning": "공지",
     "translation": "중요한공지사항을게시하세요. / 게시판에/ 모두가볼수있도록",
+    "blanks": [
+      {
+        "start": 18,
+        "end": 24
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3007,6 +3163,12 @@
     "end": 46,
     "meaning": "게시판",
     "translation": "중요한공지사항을게시하세요. / 게시판에/ 모두가볼수있도록",
+    "blanks": [
+      {
+        "start": 32,
+        "end": 46
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3021,6 +3183,12 @@
     "end": 27,
     "meaning": "서류들, 파일들",
     "translation": "직원들은파일을보관했습니다. / 정리하여/ 서류캐비닛에",
+    "blanks": [
+      {
+        "start": 22,
+        "end": 27
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3035,6 +3203,12 @@
     "end": 59,
     "meaning": "서류 보관함",
     "translation": "직원들은파일을보관했습니다. / 정리하여/ 서류캐비닛에",
+    "blanks": [
+      {
+        "start": 45,
+        "end": 59
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3049,6 +3223,12 @@
     "end": 36,
     "meaning": "서류 가방",
     "translation": "잊지마세요. / 서류가방을가져오는것을/ 내일회의에",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 36
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3063,6 +3243,12 @@
     "end": 16,
     "meaning": "복사본을 만드세요",
     "translation": "보고서를복사해주세요. / 복사기를사용해서",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 16
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3077,6 +3263,12 @@
     "end": 30,
     "meaning": "보고서",
     "translation": "보고서를복사해주세요. / 복사기를사용해서",
+    "blanks": [
+      {
+        "start": 24,
+        "end": 30
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3091,6 +3283,12 @@
     "end": 52,
     "meaning": "복사기",
     "translation": "보고서를복사해주세요. / 복사기를사용해서",
+    "blanks": [
+      {
+        "start": 41,
+        "end": 52
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3105,34 +3303,32 @@
     "end": 47,
     "meaning": "구식의",
     "translation": "회의실에있는컴퓨터는구식입니다. / 그래서우리는최신모델로업그레이드해야합니다.",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w5l1p8-478689fced22",
+    "id": "w5l1p8-e07e4ce71469",
     "week": 5,
     "lesson": 1,
     "page": 8,
     "file": "초급토익어휘_05주_1교시.pdf",
     "sentence": "The company invested in state-of-the-art equipment to improve productivity.",
-    "answer": "state-of-the-art",
+    "answer": "state-of-the-art equipment",
     "start": 24,
-    "end": 40,
-    "meaning": "최첨단의",
-    "translation": "회사는투자했습니다. / 최신장비에/ 생산성을향상시키기위하여",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w5l1p8-a88b562e7fda",
-    "week": 5,
-    "lesson": 1,
-    "page": 8,
-    "file": "초급토익어휘_05주_1교시.pdf",
-    "sentence": "The company invested in state-of-the-art equipment to improve productivity.",
-    "answer": "equipment",
-    "start": 41,
     "end": 50,
-    "meaning": "장비",
+    "meaning": "최첨단 장비",
     "translation": "회사는투자했습니다. / 최신장비에/ 생산성을향상시키기위하여",
+    "blanks": [
+      {
+        "start": 24,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3147,6 +3343,12 @@
     "end": 37,
     "meaning": "사무용품",
     "translation": "우리는사무용품을더주문해야해요, 펜을다써가고있거든요.",
+    "blanks": [
+      {
+        "start": 22,
+        "end": 37
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3161,90 +3363,80 @@
     "end": 59,
     "meaning": "~이 다 떨어져 가는",
     "translation": "우리는사무용품을더주문해야해요, 펜을다써가고있거든요.",
+    "blanks": [
+      {
+        "start": 45,
+        "end": 59
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w5l1p10-b0ed10009804",
+    "id": "w5l1p10-a710e74e7edc",
     "week": 5,
     "lesson": 1,
     "page": 10,
     "file": "초급토익어휘_05주_1교시.pdf",
     "sentence": "The copier in the office is in good condition and is regularly maintained.",
-    "answer": "is",
+    "answer": "is in good condition",
     "start": 25,
-    "end": 27,
-    "meaning": "~이다",
-    "translation": "사무실에있는복사기는상태가양호하고/ 정기적으로관리되고있습니다.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w5l1p10-7bbc05c2761a",
-    "week": 5,
-    "lesson": 1,
-    "page": 10,
-    "file": "초급토익어휘_05주_1교시.pdf",
-    "sentence": "The copier in the office is in good condition and is regularly maintained.",
-    "answer": "good condition",
-    "start": 31,
     "end": 45,
-    "meaning": "좋은 상태",
+    "meaning": "상태가 좋다 (be in good condition)",
     "translation": "사무실에있는복사기는상태가양호하고/ 정기적으로관리되고있습니다.",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 45
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w5l1p10-9f2987fb9e20",
+    "id": "w5l1p10-9f0d0280180b",
     "week": 5,
     "lesson": 1,
     "page": 10,
     "file": "초급토익어휘_05주_1교시.pdf",
     "sentence": "The office printer is currently in use, so please wait for your turn.",
-    "answer": "is",
+    "answer": "is … in use",
     "start": 19,
-    "end": 21,
-    "meaning": "~이다",
-    "translation": "사무실프린터는현재사용중이니, 차례를기다려주세요.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w5l1p10-864c96896939",
-    "week": 5,
-    "lesson": 1,
-    "page": 10,
-    "file": "초급토익어휘_05주_1교시.pdf",
-    "sentence": "The office printer is currently in use, so please wait for your turn.",
-    "answer": "in use",
-    "start": 32,
     "end": 38,
-    "meaning": "사용 중인",
+    "meaning": "사용 중이다 (be in use)",
     "translation": "사무실프린터는현재사용중이니, 차례를기다려주세요.",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 21
+      },
+      {
+        "start": 32,
+        "end": 38
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w5l1p11-e1a9c8ff05d3",
+    "id": "w5l1p11-2478858bfdd7",
     "week": 5,
     "lesson": 1,
     "page": 11,
     "file": "초급토익어휘_05주_1교시.pdf",
     "sentence": "The printer is currently out of order, and the IT team is working to fix it.",
-    "answer": "is",
+    "answer": "is … out of order",
     "start": 12,
-    "end": 14,
-    "meaning": "~이다",
-    "translation": "프린터는현재고장이났으며, IT 팀에서수리중입니다.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w5l1p11-93f82e81ab43",
-    "week": 5,
-    "lesson": 1,
-    "page": 11,
-    "file": "초급토익어휘_05주_1교시.pdf",
-    "sentence": "The printer is currently out of order, and the IT team is working to fix it.",
-    "answer": "out of order",
-    "start": 25,
     "end": 37,
-    "meaning": "고장 난",
+    "meaning": "고장 나 있다 (be out of order)",
     "translation": "프린터는현재고장이났으며, IT 팀에서수리중입니다.",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 14
+      },
+      {
+        "start": 25,
+        "end": 37
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3259,6 +3451,12 @@
     "end": 72,
     "meaning": "고치다",
     "translation": "프린터는현재고장이났으며, IT 팀에서수리중입니다.",
+    "blanks": [
+      {
+        "start": 69,
+        "end": 72
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3273,6 +3471,12 @@
     "end": 31,
     "meaning": "사용하기 쉽다",
     "translation": "새로운소프트웨어는사용하기쉽습니다. / 기술에익숙하지않은사람들도",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 31
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3287,6 +3491,12 @@
     "end": 32,
     "meaning": "문서, 서류",
     "translation": "문서를준비하고검토하시기바랍니다. / 보고서를마무리하기전에",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 32
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3301,6 +3511,12 @@
     "end": 43,
     "meaning": "검토하다",
     "translation": "문서를준비하고검토하시기바랍니다. / 보고서를마무리하기전에",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 43
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3315,6 +3531,12 @@
     "end": 64,
     "meaning": "마무리하는 것",
     "translation": "문서를준비하고검토하시기바랍니다. / 보고서를마무리하기전에",
+    "blanks": [
+      {
+        "start": 54,
+        "end": 64
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3329,6 +3551,12 @@
     "end": 75,
     "meaning": "보고서",
     "translation": "문서를준비하고검토하시기바랍니다. / 보고서를마무리하기전에",
+    "blanks": [
+      {
+        "start": 69,
+        "end": 75
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3343,6 +3571,12 @@
     "end": 33,
     "meaning": "초안을 작성하다",
     "translation": "그팀은협력하여/ 새프로젝트에대한제안초안을작성했습니다.",
+    "blanks": [
+      {
+        "start": 28,
+        "end": 33
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3357,6 +3591,12 @@
     "end": 44,
     "meaning": "제안서",
     "translation": "그팀은협력하여/ 새프로젝트에대한제안초안을작성했습니다.",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3371,6 +3611,12 @@
     "end": 28,
     "meaning": "복제",
     "translation": "회사는복제기술을사용합니다. / 중요한문서의사본을만들기위해",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 28
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3385,6 +3631,12 @@
     "end": 54,
     "meaning": "복사본을 만들다",
     "translation": "회사는복제기술을사용합니다. / 중요한문서의사본을만들기위해",
+    "blanks": [
+      {
+        "start": 43,
+        "end": 54
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3399,6 +3651,12 @@
     "end": 35,
     "meaning": "제안서",
     "translation": "그는결정했습니다. 자신의제안을철회하고/ 나중에수정된버전을제출하기로",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 35
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3413,6 +3671,12 @@
     "end": 56,
     "meaning": "수정된",
     "translation": "그는결정했습니다. 자신의제안을철회하고/ 나중에수정된버전을제출하기로",
+    "blanks": [
+      {
+        "start": 49,
+        "end": 56
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3427,6 +3691,12 @@
     "end": 30,
     "meaning": "보고서",
     "translation": "관리자는보고서를요청했습니다. / 프로젝트진행상황에대한",
+    "blanks": [
+      {
+        "start": 24,
+        "end": 30
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3441,6 +3711,12 @@
     "end": 23,
     "meaning": "전달했다, 강연했다",
     "translation": "교수는흥미로운강의를하였습니다. / 회의실에서청중들에게",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 23
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3455,6 +3731,12 @@
     "end": 46,
     "meaning": "강연",
     "translation": "교수는흥미로운강의를하였습니다. / 회의실에서청중들에게",
+    "blanks": [
+      {
+        "start": 39,
+        "end": 46
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3469,6 +3751,12 @@
     "end": 62,
     "meaning": "청중",
     "translation": "교수는흥미로운강의를하였습니다. / 회의실에서청중들에게",
+    "blanks": [
+      {
+        "start": 54,
+        "end": 62
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3483,6 +3771,12 @@
     "end": 85,
     "meaning": "회의실",
     "translation": "교수는흥미로운강의를하였습니다. / 회의실에서청중들에게",
+    "blanks": [
+      {
+        "start": 70,
+        "end": 85
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3497,6 +3791,12 @@
     "end": 19,
     "meaning": "회의실",
     "translation": "회의실은충분히넓었습니다. / 많은청중을수용할수있을만큼",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 19
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3511,6 +3811,12 @@
     "end": 47,
     "meaning": "수용하다",
     "translation": "회의실은충분히넓었습니다. / 많은청중을수용할수있을만큼",
+    "blanks": [
+      {
+        "start": 43,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3525,6 +3831,12 @@
     "end": 64,
     "meaning": "청중",
     "translation": "회의실은충분히넓었습니다. / 많은청중을수용할수있을만큼",
+    "blanks": [
+      {
+        "start": 56,
+        "end": 64
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3539,6 +3851,12 @@
     "end": 81,
     "meaning": "강연",
     "translation": "회의실은충분히넓었습니다. / 많은청중을수용할수있을만큼",
+    "blanks": [
+      {
+        "start": 74,
+        "end": 81
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3553,6 +3871,12 @@
     "end": 34,
     "meaning": "연단",
     "translation": "그는자신있게연단에섰습니다. / 모든이들의주목을받으면서",
+    "blanks": [
+      {
+        "start": 28,
+        "end": 34
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3567,6 +3891,12 @@
     "end": 62,
     "meaning": "주의를 끄는 것",
     "translation": "그는자신있게연단에섰습니다. / 모든이들의주목을받으면서",
+    "blanks": [
+      {
+        "start": 41,
+        "end": 62
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3581,6 +3911,12 @@
     "end": 25,
     "meaning": "등록했다",
     "translation": "많은분들이등록했습니다. / A 회의실에서열리는강의에참석하기위해",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 25
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3595,6 +3931,12 @@
     "end": 35,
     "meaning": "참석하다",
     "translation": "많은분들이등록했습니다. / A 회의실에서열리는강의에참석하기위해",
+    "blanks": [
+      {
+        "start": 29,
+        "end": 35
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3609,6 +3951,12 @@
     "end": 47,
     "meaning": "강연",
     "translation": "많은분들이등록했습니다. / A 회의실에서열리는강의에참석하기위해",
+    "blanks": [
+      {
+        "start": 40,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3623,6 +3971,12 @@
     "end": 70,
     "meaning": "회의실",
     "translation": "많은분들이등록했습니다. / A 회의실에서열리는강의에참석하기위해",
+    "blanks": [
+      {
+        "start": 55,
+        "end": 70
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3637,6 +3991,12 @@
     "end": 27,
     "meaning": "유인물",
     "translation": "그들은참가자들에게나눠줄유인물도준비했습니다. / 강의중에",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 27
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3651,6 +4011,12 @@
     "end": 55,
     "meaning": "참가자들",
     "translation": "그들은참가자들에게나눠줄유인물도준비했습니다. / 강의중에",
+    "blanks": [
+      {
+        "start": 43,
+        "end": 55
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3665,6 +4031,12 @@
     "end": 74,
     "meaning": "강연",
     "translation": "그들은참가자들에게나눠줄유인물도준비했습니다. / 강의중에",
+    "blanks": [
+      {
+        "start": 67,
+        "end": 74
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3679,6 +4051,12 @@
     "end": 9,
     "meaning": "장소",
     "translation": "장소는행사에편리한장소였고/ 주최측은공지를게시했습니다. / 모든세부사항을담은",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 9
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3693,6 +4071,12 @@
     "end": 82,
     "meaning": "공지를 게시하다",
     "translation": "장소는행사에편리한장소였고/ 주최측은공지를게시했습니다. / 모든세부사항을담은",
+    "blanks": [
+      {
+        "start": 67,
+        "end": 82
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3707,6 +4091,12 @@
     "end": 23,
     "meaning": "맡았다",
     "translation": "팀리더는책임을맡았습니다. / 팀구성원에게작업을할당하는",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 23
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3721,6 +4111,12 @@
     "end": 42,
     "meaning": "책임",
     "translation": "팀리더는책임을맡았습니다. / 팀구성원에게작업을할당하는",
+    "blanks": [
+      {
+        "start": 28,
+        "end": 42
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3735,6 +4131,12 @@
     "end": 52,
     "meaning": "배정하다",
     "translation": "팀리더는책임을맡았습니다. / 팀구성원에게작업을할당하는",
+    "blanks": [
+      {
+        "start": 46,
+        "end": 52
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3749,6 +4151,12 @@
     "end": 34,
     "meaning": "자발적으로 맡았다",
     "translation": "그직원은자발적으로프로젝트에착수했습니다. / 새로운고객과소통하기위해",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 34
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3763,6 +4171,12 @@
     "end": 24,
     "meaning": "~을 담당하다",
     "translation": "Maria는고객서비스부서관리를담당합니다.",
+    "blanks": [
+      {
+        "start": 6,
+        "end": 24
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3777,6 +4191,12 @@
     "end": 57,
     "meaning": "~에 책임이 있다",
     "translation": "HR 관리자는팀을이끌고있으며/ 성과에대해책임을집니다.",
+    "blanks": [
+      {
+        "start": 39,
+        "end": 57
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3791,6 +4211,12 @@
     "end": 12,
     "meaning": "동료",
     "translation": "동료가신속하게도와주었습니다. / 프레젠테이션에도움이필요할때",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 12
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3805,6 +4231,12 @@
     "end": 32,
     "meaning": "돕다",
     "translation": "동료가신속하게도와주었습니다. / 프레젠테이션에도움이필요할때",
+    "blanks": [
+      {
+        "start": 26,
+        "end": 32
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3819,6 +4251,12 @@
     "end": 26,
     "meaning": "조성하다, 촉진하다",
     "translation": "회사는조성하는것을목표로하고있습니다. / 긍정적인업무환경을/ 직원만족도향상을위해",
+    "blanks": [
+      {
+        "start": 20,
+        "end": 26
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3833,6 +4271,12 @@
     "end": 87,
     "meaning": "만족",
     "translation": "회사는조성하는것을목표로하고있습니다. / 긍정적인업무환경을/ 직원만족도향상을위해",
+    "blanks": [
+      {
+        "start": 75,
+        "end": 87
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3847,34 +4291,36 @@
     "end": 38,
     "meaning": "달성하다",
     "translation": "팀은완료하기위해협력했습니다. / 어려운프로젝트를제시간에",
+    "blanks": [
+      {
+        "start": 28,
+        "end": 38
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w5l2p10-b67af2ed3013",
+    "id": "w5l2p10-9589219b7a19",
     "week": 5,
     "lesson": 2,
     "page": 10,
     "file": "초급토익어휘_05주_2교시.pdf",
     "sentence": "The customers were highly satisfied with the outstanding service provided by the company.",
-    "answer": "were",
+    "answer": "were … satisfied with",
     "start": 14,
-    "end": 18,
-    "meaning": "~였다 (be의 과거형)",
-    "translation": "고객들은매우만족했습니다. / 회사가제공하는뛰어난서비스에",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w5l2p10-69787cdeb3a1",
-    "week": 5,
-    "lesson": 2,
-    "page": 10,
-    "file": "초급토익어휘_05주_2교시.pdf",
-    "sentence": "The customers were highly satisfied with the outstanding service provided by the company.",
-    "answer": "satisfied with",
-    "start": 26,
     "end": 40,
-    "meaning": "~에 만족하는",
+    "meaning": "~에 만족했다 (be satisfied with)",
     "translation": "고객들은매우만족했습니다. / 회사가제공하는뛰어난서비스에",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 18
+      },
+      {
+        "start": 26,
+        "end": 40
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3889,6 +4335,12 @@
     "end": 56,
     "meaning": "뛰어난",
     "translation": "고객들은매우만족했습니다. / 회사가제공하는뛰어난서비스에",
+    "blanks": [
+      {
+        "start": 45,
+        "end": 56
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3903,6 +4355,12 @@
     "end": 31,
     "meaning": "시연하다",
     "translation": "기술자는능숙하게사용하는방법을보여줍니다. / 직원에게새장비를",
+    "blanks": [
+      {
+        "start": 20,
+        "end": 31
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3917,34 +4375,32 @@
     "end": 44,
     "meaning": "능숙한",
     "translation": "기술자는능숙하게사용하는방법을보여줍니다. / 직원에게새장비를",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w5l2p12-93c71d4afe85",
+    "id": "w5l2p12-58fec663f54b",
     "week": 5,
     "lesson": 2,
     "page": 12,
     "file": "초급토익어휘_05주_2교시.pdf",
     "sentence": "The production team was able to make timely adjustment to the manufacturing process.",
-    "answer": "timely",
+    "answer": "timely adjustment",
     "start": 37,
-    "end": 43,
-    "meaning": "시기적절한, 제때의",
-    "translation": "생산팀은적시에조정할수있었습니다. / 제조공정을",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w5l2p12-6cd6f927196a",
-    "week": 5,
-    "lesson": 2,
-    "page": 12,
-    "file": "초급토익어휘_05주_2교시.pdf",
-    "sentence": "The production team was able to make timely adjustment to the manufacturing process.",
-    "answer": "adjustment",
-    "start": 44,
     "end": 54,
-    "meaning": "조정",
+    "meaning": "시기적절한 조정",
     "translation": "생산팀은적시에조정할수있었습니다. / 제조공정을",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 54
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -3959,34 +4415,32 @@
     "end": 32,
     "meaning": "시행하다",
     "translation": "회사는새로운안전조치를즉시시행하기로결정했습니다.",
+    "blanks": [
+      {
+        "start": 23,
+        "end": 32
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w5l2p12-fce75fdb6bd6",
+    "id": "w5l2p12-9a0897e7a538",
     "week": 5,
     "lesson": 2,
     "page": 12,
     "file": "초급토익어휘_05주_2교시.pdf",
     "sentence": "The company decided to implement the new safety measures promptly.",
-    "answer": "measures",
+    "answer": "measures promptly",
     "start": 48,
-    "end": 56,
-    "meaning": "조치, 대책",
-    "translation": "회사는새로운안전조치를즉시시행하기로결정했습니다.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w5l2p12-823ad4998002",
-    "week": 5,
-    "lesson": 2,
-    "page": 12,
-    "file": "초급토익어휘_05주_2교시.pdf",
-    "sentence": "The company decided to implement the new safety measures promptly.",
-    "answer": "promptly",
-    "start": 57,
     "end": 65,
-    "meaning": "신속하게, 지체 없이",
+    "meaning": "조치를 신속히 (시행하다)",
     "translation": "회사는새로운안전조치를즉시시행하기로결정했습니다.",
+    "blanks": [
+      {
+        "start": 48,
+        "end": 65
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4001,6 +4455,12 @@
     "end": 30,
     "meaning": "시행하다",
     "translation": "팀은준비가되어있습니다. / 정교한정책을구현할",
+    "blanks": [
+      {
+        "start": 21,
+        "end": 30
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4015,6 +4475,12 @@
     "end": 53,
     "meaning": "정교한 정책",
     "translation": "팀은준비가되어있습니다. / 정교한정책을구현할",
+    "blanks": [
+      {
+        "start": 33,
+        "end": 53
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4029,6 +4495,12 @@
     "end": 35,
     "meaning": "시행하다",
     "translation": "경영진은시행하기로결정했습니다. / 새로운마케팅전략을",
+    "blanks": [
+      {
+        "start": 26,
+        "end": 35
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4043,6 +4515,12 @@
     "end": 60,
     "meaning": "전략",
     "translation": "경영진은시행하기로결정했습니다. / 새로운마케팅전략을",
+    "blanks": [
+      {
+        "start": 52,
+        "end": 60
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4057,6 +4535,12 @@
     "end": 23,
     "meaning": "알리다",
     "translation": "회사는모든직원에게알릴것입니다. / 다가오는사무용장비교체에대해",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 23
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4071,6 +4555,12 @@
     "end": 85,
     "meaning": "교체",
     "translation": "회사는모든직원에게알릴것입니다. / 다가오는사무용장비교체에대해",
+    "blanks": [
+      {
+        "start": 74,
+        "end": 85
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4085,6 +4575,12 @@
     "end": 35,
     "meaning": "필수적인",
     "translation": "CEO는주요세부사항을발표할것입니다. / 신제품출시에대한",
+    "blanks": [
+      {
+        "start": 26,
+        "end": 35
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4099,6 +4595,12 @@
     "end": 24,
     "meaning": "발표했다",
     "translation": "HR 관리자는필수교육세션의개요를발표했습니다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 24
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4113,6 +4615,12 @@
     "end": 36,
     "meaning": "개요",
     "translation": "HR 관리자는필수교육세션의개요를발표했습니다.",
+    "blanks": [
+      {
+        "start": 29,
+        "end": 36
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4127,6 +4635,12 @@
     "end": 14,
     "meaning": "동료들",
     "translation": "마케팅부서의동료들이/ 시장분석을수행할것입니다. / 신제품출시를위한",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 14
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4141,6 +4655,12 @@
     "end": 57,
     "meaning": "수행하다",
     "translation": "마케팅부서의동료들이/ 시장분석을수행할것입니다. / 신제품출시를위한",
+    "blanks": [
+      {
+        "start": 50,
+        "end": 57
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4155,6 +4675,12 @@
     "end": 21,
     "meaning": "협력했다",
     "translation": "팀은효과적으로협력하여과제를수행하고/ 제시간에뛰어난결과를제공했습니다.",
+    "blanks": [
+      {
+        "start": 9,
+        "end": 21
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4169,6 +4695,12 @@
     "end": 44,
     "meaning": "수행하다",
     "translation": "팀은효과적으로협력하여과제를수행하고/ 제시간에뛰어난결과를제공했습니다.",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4183,6 +4715,12 @@
     "end": 59,
     "meaning": "과제",
     "translation": "팀은효과적으로협력하여과제를수행하고/ 제시간에뛰어난결과를제공했습니다.",
+    "blanks": [
+      {
+        "start": 49,
+        "end": 59
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4197,6 +4735,12 @@
     "end": 85,
     "meaning": "뛰어난",
     "translation": "팀은효과적으로협력하여과제를수행하고/ 제시간에뛰어난결과를제공했습니다.",
+    "blanks": [
+      {
+        "start": 74,
+        "end": 85
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4211,62 +4755,60 @@
     "end": 17,
     "meaning": "인사부",
     "translation": "HR 부서에서는모든직원에게알립니다. / 새로운회사정책을/ 회의중에",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 17
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w6l1p6-0a2b3f548981",
+    "id": "w6l1p6-ad0880066e99",
     "week": 6,
     "lesson": 1,
     "page": 6,
     "file": "초급토익어휘_06주_1교시.pdf",
     "sentence": "The HR department will notify all employees of the new company  policies during a meeting.",
-    "answer": "notify",
+    "answer": "notify … of",
     "start": 23,
-    "end": 29,
-    "meaning": "통보하다",
-    "translation": "HR 부서에서는모든직원에게알립니다. / 새로운회사정책을/ 회의중에",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w6l1p6-dbf0fbe1a31d",
-    "week": 6,
-    "lesson": 1,
-    "page": 6,
-    "file": "초급토익어휘_06주_1교시.pdf",
-    "sentence": "The HR department will notify all employees of the new company  policies during a meeting.",
-    "answer": "of",
-    "start": 44,
     "end": 46,
-    "meaning": "~에 대해 (inform/notify/remind A of B 구문)",
+    "meaning": "~에게 …을 통보하다 (notify A of B)",
     "translation": "HR 부서에서는모든직원에게알립니다. / 새로운회사정책을/ 회의중에",
+    "blanks": [
+      {
+        "start": 23,
+        "end": 29
+      },
+      {
+        "start": 44,
+        "end": 46
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w6l1p6-377dc8a45f08",
+    "id": "w6l1p6-d5d3c633f4c3",
     "week": 6,
     "lesson": 1,
     "page": 6,
     "file": "초급토익어휘_06주_1교시.pdf",
     "sentence": "The airline will notify passengers of any flight delays or cancellations through the mobile app.",
-    "answer": "notify",
+    "answer": "notify … of",
     "start": 17,
-    "end": 23,
-    "meaning": "통보하다",
-    "translation": "항공사는승객에게알립니다. / 항공편지연이나취소를/ 모바일앱을통해",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w6l1p6-167f33c213a1",
-    "week": 6,
-    "lesson": 1,
-    "page": 6,
-    "file": "초급토익어휘_06주_1교시.pdf",
-    "sentence": "The airline will notify passengers of any flight delays or cancellations through the mobile app.",
-    "answer": "of",
-    "start": 35,
     "end": 37,
-    "meaning": "~에 대해 (inform/notify/remind A of B 구문)",
+    "meaning": "~에게 …을 통보하다 (notify A of B)",
     "translation": "항공사는승객에게알립니다. / 항공편지연이나취소를/ 모바일앱을통해",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 23
+      },
+      {
+        "start": 35,
+        "end": 37
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4281,6 +4823,12 @@
     "end": 24,
     "meaning": "감독하다",
     "translation": "관리자는팀의작업을감독합니다. / 직원들이보고서를올바르게보관할수있도록",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 24
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4295,6 +4843,12 @@
     "end": 60,
     "meaning": "제출하다, 정리하여 보관하다",
     "translation": "관리자는팀의작업을감독합니다. / 직원들이보고서를올바르게보관할수있도록",
+    "blanks": [
+      {
+        "start": 56,
+        "end": 60
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4309,6 +4863,12 @@
     "end": 50,
     "meaning": "전달하다",
     "translation": "회의중에/ 프로젝트리더는전달합니다. / 필요한수정사항을/ 팀구성원에게",
+    "blanks": [
+      {
+        "start": 44,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4323,6 +4883,12 @@
     "end": 75,
     "meaning": "수정 사항",
     "translation": "회의중에/ 프로젝트리더는전달합니다. / 필요한수정사항을/ 팀구성원에게",
+    "blanks": [
+      {
+        "start": 66,
+        "end": 75
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4337,6 +4903,12 @@
     "end": 29,
     "meaning": "연장하다",
     "translation": "회사는프로젝트기한을연장하기로결정했습니다. / 완료하는데더많은시간을할애하기위해",
+    "blanks": [
+      {
+        "start": 23,
+        "end": 29
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4351,6 +4923,12 @@
     "end": 22,
     "meaning": "부여했다, 제공했다",
     "translation": "정부는재정지원을제공했습니다. / 중소기업의발전을지원하기위해",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 22
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4365,6 +4943,12 @@
     "end": 13,
     "meaning": "검사관",
     "translation": "검사관은공장의안전조치를검사합니다. / 규정준수여부를확인하기위해",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 13
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4379,6 +4963,12 @@
     "end": 26,
     "meaning": "검사하다",
     "translation": "검사관은공장의안전조치를검사합니다. / 규정준수여부를확인하기위해",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 26
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4393,6 +4983,12 @@
     "end": 46,
     "meaning": "안전 조치",
     "translation": "검사관은공장의안전조치를검사합니다. / 규정준수여부를확인하기위해",
+    "blanks": [
+      {
+        "start": 31,
+        "end": 46
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4407,6 +5003,12 @@
     "end": 23,
     "meaning": "보고서",
     "translation": "그매니저는보고할것입니다. / 내일이사회에분기별수익을",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 23
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4421,6 +5023,12 @@
     "end": 72,
     "meaning": "이사회",
     "translation": "그매니저는보고할것입니다. / 내일이사회에분기별수익을",
+    "blanks": [
+      {
+        "start": 54,
+        "end": 72
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4435,6 +5043,12 @@
     "end": 10,
     "meaning": "의제",
     "translation": "오늘회의안건에는포함하고있습니다. / 예산과향후프로젝트에대한논의를",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 10
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4449,6 +5063,12 @@
     "end": 50,
     "meaning": "논의하는 것",
     "translation": "오늘회의안건에는포함하고있습니다. / 예산과향후프로젝트에대한논의를",
+    "blanks": [
+      {
+        "start": 40,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4463,6 +5083,12 @@
     "end": 21,
     "meaning": "회의",
     "translation": "회의중에CEO는직원이제기한모든우려사항을명확히할것입니다.",
+    "blanks": [
+      {
+        "start": 11,
+        "end": 21
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4477,6 +5103,12 @@
     "end": 43,
     "meaning": "명확히 하다",
     "translation": "회의중에CEO는직원이제기한모든우려사항을명확히할것입니다.",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 43
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4491,34 +5123,32 @@
     "end": 21,
     "meaning": "연설했다",
     "translation": "연사는연설했습니다./ 회의에서청중에게",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 21
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w6l1p14-5a5f5b0d587d",
+    "id": "w6l1p14-602c01aa4ef2",
     "week": 6,
     "lesson": 1,
     "page": 14,
     "file": "초급토익어휘_06주_1교시.pdf",
     "sentence": "Please call a meeting to address the recent issues with our software.",
-    "answer": "call",
+    "answer": "call a meeting",
     "start": 7,
-    "end": 11,
-    "meaning": "소집하다",
-    "translation": "회의를소집해주세요. / 다루기위해/ 우리소프트웨어의최근문제를(=handle, deal with)",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w6l1p14-2a408fbd9887",
-    "week": 6,
-    "lesson": 1,
-    "page": 14,
-    "file": "초급토익어휘_06주_1교시.pdf",
-    "sentence": "Please call a meeting to address the recent issues with our software.",
-    "answer": "meeting",
-    "start": 14,
     "end": 21,
-    "meaning": "회의",
+    "meaning": "회의를 소집하다",
     "translation": "회의를소집해주세요. / 다루기위해/ 우리소프트웨어의최근문제를(=handle, deal with)",
+    "blanks": [
+      {
+        "start": 7,
+        "end": 21
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4533,6 +5163,12 @@
     "end": 32,
     "meaning": "다루다, 처리하다",
     "translation": "회의를소집해주세요. / 다루기위해/ 우리소프트웨어의최근문제를(=handle, deal with)",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 32
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4547,6 +5183,12 @@
     "end": 50,
     "meaning": "문제들",
     "translation": "회의를소집해주세요. / 다루기위해/ 우리소프트웨어의최근문제를(=handle, deal with)",
+    "blanks": [
+      {
+        "start": 44,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4561,6 +5203,12 @@
     "end": 12,
     "meaning": "주소를 적었다",
     "translation": "그는봉투에주의깊게주소를적었습니다. / 편지를보내기전에",
+    "blanks": [
+      {
+        "start": 3,
+        "end": 12
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4575,34 +5223,32 @@
     "end": 18,
     "meaning": "논의하다",
     "translation": "우리는예산에관해논의해야합니다. / 다음회의에서재무부서",
+    "blanks": [
+      {
+        "start": 11,
+        "end": 18
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w6l1p16-5c9b6fa28546",
+    "id": "w6l1p16-acdc5ff738d2",
     "week": 6,
     "lesson": 1,
     "page": 16,
     "file": "초급토익어휘_06주_1교시.pdf",
     "sentence": "The ongoing issue of protecting the environment will be discussed at  the conference.",
-    "answer": "ongoing",
+    "answer": "ongoing issue",
     "start": 4,
-    "end": 11,
-    "meaning": "계속 진행 중인",
-    "translation": "환경보호에관한지속적인문제가/ 논의될것입니다. / 회의에서",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w6l1p16-0797d99d79ff",
-    "week": 6,
-    "lesson": 1,
-    "page": 16,
-    "file": "초급토익어휘_06주_1교시.pdf",
-    "sentence": "The ongoing issue of protecting the environment will be discussed at  the conference.",
-    "answer": "issue",
-    "start": 12,
     "end": 17,
-    "meaning": "문제, 쟁점",
+    "meaning": "진행 중인 문제",
     "translation": "환경보호에관한지속적인문제가/ 논의될것입니다. / 회의에서",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 17
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4617,6 +5263,12 @@
     "end": 65,
     "meaning": "논의되다",
     "translation": "환경보호에관한지속적인문제가/ 논의될것입니다. / 회의에서",
+    "blanks": [
+      {
+        "start": 56,
+        "end": 65
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4631,6 +5283,12 @@
     "end": 84,
     "meaning": "회의",
     "translation": "환경보호에관한지속적인문제가/ 논의될것입니다. / 회의에서",
+    "blanks": [
+      {
+        "start": 74,
+        "end": 84
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4645,6 +5303,12 @@
     "end": 27,
     "meaning": "협상",
     "translation": "몇달간의협상끝에/ 양측은마침내합의에도달했습니다. / 파트너십조건에대한",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 27
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4659,6 +5323,12 @@
     "end": 40,
     "meaning": "당사자들",
     "translation": "몇달간의협상끝에/ 양측은마침내합의에도달했습니다. / 파트너십조건에대한",
+    "blanks": [
+      {
+        "start": 33,
+        "end": 40
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4673,6 +5343,12 @@
     "end": 69,
     "meaning": "합의",
     "translation": "몇달간의협상끝에/ 양측은마침내합의에도달했습니다. / 파트너십조건에대한",
+    "blanks": [
+      {
+        "start": 60,
+        "end": 69
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4687,6 +5363,12 @@
     "end": 82,
     "meaning": "조건들",
     "translation": "몇달간의협상끝에/ 양측은마침내합의에도달했습니다. / 파트너십조건에대한",
+    "blanks": [
+      {
+        "start": 77,
+        "end": 82
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4701,6 +5383,12 @@
     "end": 38,
     "meaning": "합의",
     "translation": "두회사는합의했다. / 전략적제휴를맺기로",
+    "blanks": [
+      {
+        "start": 29,
+        "end": 38
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4715,6 +5403,12 @@
     "end": 67,
     "meaning": "동맹, 제휴",
     "translation": "두회사는합의했다. / 전략적제휴를맺기로",
+    "blanks": [
+      {
+        "start": 59,
+        "end": 67
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4729,6 +5423,12 @@
     "end": 19,
     "meaning": "기간",
     "translation": "계약기간은2년으로정해져있으며/ 올회계연도말에만료된다.",
+    "blanks": [
+      {
+        "start": 15,
+        "end": 19
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4743,6 +5443,12 @@
     "end": 15,
     "meaning": "협상",
     "translation": "협상과정은어려웠지만/ 양측은결국합의에도달했습니다. / 조건에대해",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 15
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4757,6 +5463,12 @@
     "end": 57,
     "meaning": "당사자들",
     "translation": "협상과정은어려웠지만/ 양측은결국합의에도달했습니다. / 조건에대해",
+    "blanks": [
+      {
+        "start": 50,
+        "end": 57
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4771,6 +5483,12 @@
     "end": 102,
     "meaning": "조건들",
     "translation": "협상과정은어려웠지만/ 양측은결국합의에도달했습니다. / 조건에대해",
+    "blanks": [
+      {
+        "start": 97,
+        "end": 102
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4785,6 +5503,12 @@
     "end": 12,
     "meaning": "계약",
     "translation": "소프트웨어제공업체와의계약은다음달만료될예정이며, 회사는더나은조건으로갱신협상을할계획입니다.",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 12
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4799,6 +5523,12 @@
     "end": 98,
     "meaning": "협상하다",
     "translation": "소프트웨어제공업체와의계약은다음달만료될예정이며, 회사는더나은조건으로갱신협상을할계획입니다.",
+    "blanks": [
+      {
+        "start": 89,
+        "end": 98
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4813,6 +5543,12 @@
     "end": 126,
     "meaning": "조건들",
     "translation": "소프트웨어제공업체와의계약은다음달만료될예정이며, 회사는더나은조건으로갱신협상을할계획입니다.",
+    "blanks": [
+      {
+        "start": 121,
+        "end": 126
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4827,6 +5563,12 @@
     "end": 17,
     "meaning": "서명했다",
     "translation": "저자는출판사와계약을맺고/ 책출판권을부여했습니다.",
+    "blanks": [
+      {
+        "start": 11,
+        "end": 17
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4841,6 +5583,12 @@
     "end": 28,
     "meaning": "계약",
     "translation": "저자는출판사와계약을맺고/ 책출판권을부여했습니다.",
+    "blanks": [
+      {
+        "start": 20,
+        "end": 28
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4855,6 +5603,12 @@
     "end": 52,
     "meaning": "입찰, 입찰서",
     "translation": "건설회사는경쟁입찰을제출했습니다. / 새프로젝트에대한",
+    "blanks": [
+      {
+        "start": 49,
+        "end": 52
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4869,6 +5623,12 @@
     "end": 30,
     "meaning": "입찰, 입찰서",
     "translation": "회사는입찰을준비하고있습니다. / 기술부문에서M&A 기회를위한",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 30
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4883,6 +5643,12 @@
     "end": 41,
     "meaning": "인수 합병",
     "translation": "회사는입찰을준비하고있습니다. / 기술부문에서M&A 기회를위한",
+    "blanks": [
+      {
+        "start": 38,
+        "end": 41
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4897,6 +5663,12 @@
     "end": 38,
     "meaning": "협력하다",
     "translation": "두예술가는새로운예술프로젝트를공동작업하기로결정했습니다. / 각자의독특한스타일과기술을결합한",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 38
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4911,6 +5683,12 @@
     "end": 43,
     "meaning": "종료하다",
     "translation": "이사회는프로젝트를종료하기로결정했습니다. / 프로젝트가완료되기전에",
+    "blanks": [
+      {
+        "start": 34,
+        "end": 43
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4925,6 +5703,12 @@
     "end": 31,
     "meaning": "수정하다",
     "translation": "위원회는제안을수정하기로결정했습니다. / 직원들을위한추가혜택을포함하도록",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 31
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4939,6 +5723,12 @@
     "end": 44,
     "meaning": "제안서",
     "translation": "위원회는제안을수정하기로결정했습니다. / 직원들을위한추가혜택을포함하도록",
+    "blanks": [
+      {
+        "start": 36,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4953,6 +5743,12 @@
     "end": 35,
     "meaning": "위원회",
     "translation": "ABC 회사는위원회를구성했습니다. / 평가하기위해/ 다양한프로젝트제안서를",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 35
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4967,6 +5763,12 @@
     "end": 74,
     "meaning": "제안서들",
     "translation": "ABC 회사는위원회를구성했습니다. / 평가하기위해/ 다양한프로젝트제안서를",
+    "blanks": [
+      {
+        "start": 65,
+        "end": 74
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4981,6 +5783,12 @@
     "end": 28,
     "meaning": "갱신하다",
     "translation": "회사는결정했습니다. / 계약을갱신하기로/ 가장성공적인유통업체와",
+    "blanks": [
+      {
+        "start": 23,
+        "end": 28
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -4995,6 +5803,12 @@
     "end": 27,
     "meaning": "협상",
     "translation": "몇달간의협상끝에/ 두회사는마침내파트너십계약조건을합의했습니다.",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 27
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5009,34 +5823,32 @@
     "end": 65,
     "meaning": "~에 합의했다",
     "translation": "몇달간의협상끝에/ 두회사는마침내파트너십계약조건을합의했습니다.",
+    "blanks": [
+      {
+        "start": 55,
+        "end": 65
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w6l2p14-48d398ba75ed",
+    "id": "w6l2p14-9ef80901d0f2",
     "week": 6,
     "lesson": 2,
     "page": 14,
     "file": "초급토익어휘_06주_2교시.pdf",
     "sentence": "After months of negotiation, the two companies finally settled on the terms of their partnership agreement.",
-    "answer": "partnership",
+    "answer": "partnership agreement",
     "start": 85,
-    "end": 96,
-    "meaning": "협력 관계, 제휴",
-    "translation": "몇달간의협상끝에/ 두회사는마침내파트너십계약조건을합의했습니다.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w6l2p14-daa8192fa424",
-    "week": 6,
-    "lesson": 2,
-    "page": 14,
-    "file": "초급토익어휘_06주_2교시.pdf",
-    "sentence": "After months of negotiation, the two companies finally settled on the terms of their partnership agreement.",
-    "answer": "agreement",
-    "start": 97,
     "end": 106,
-    "meaning": "합의",
+    "meaning": "제휴 계약",
     "translation": "몇달간의협상끝에/ 두회사는마침내파트너십계약조건을합의했습니다.",
+    "blanks": [
+      {
+        "start": 85,
+        "end": 106
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5051,6 +5863,12 @@
     "end": 76,
     "meaning": "인세, 사용료",
     "translation": "작가의책은베스트셀러가되었고, 그녀는책판매로상당한로열티를받았습니다.",
+    "blanks": [
+      {
+        "start": 67,
+        "end": 76
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5065,6 +5883,12 @@
     "end": 71,
     "meaning": "갈등을 해결했다",
     "translation": "양측은일련의논의끝에마침내갈등을해결했습니다.",
+    "blanks": [
+      {
+        "start": 51,
+        "end": 71
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5079,6 +5903,12 @@
     "end": 15,
     "meaning": "진행했다 (run의 과거형)",
     "translation": "회사는성공적인광고캠페인을운영했습니다. / 신문의광고와온라인프로모션을모두포함하는",
+    "blanks": [
+      {
+        "start": 12,
+        "end": 15
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5093,6 +5923,12 @@
     "end": 49,
     "meaning": "광고 캠페인",
     "translation": "회사는성공적인광고캠페인을운영했습니다. / 신문의광고와온라인프로모션을모두포함하는",
+    "blanks": [
+      {
+        "start": 29,
+        "end": 49
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5107,6 +5943,12 @@
     "end": 32,
     "meaning": "광고를 내다",
     "translation": "회사는광고를게재하기로결정했습니다. / 지역신문에/ 신제품을홍보하기위해",
+    "blanks": [
+      {
+        "start": 23,
+        "end": 32
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5121,6 +5963,12 @@
     "end": 26,
     "meaning": "창의적인 광고",
     "translation": "창의적인광고는모든사람의관심을끌었으며/ 많은홍보효과를불러일으켰습니다.",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 26
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5135,6 +5983,12 @@
     "end": 87,
     "meaning": "홍보, 대중의 관심",
     "translation": "창의적인광고는모든사람의관심을끌었으며/ 많은홍보효과를불러일으켰습니다.",
+    "blanks": [
+      {
+        "start": 78,
+        "end": 87
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5149,6 +6003,12 @@
     "end": 42,
     "meaning": "캠페인을 실시하다",
     "translation": "마케팅팀에서는캠페인을진행합니다. / 신규고객을유치하기위해",
+    "blanks": [
+      {
+        "start": 24,
+        "end": 42
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5163,6 +6023,12 @@
     "end": 17,
     "meaning": "목표",
     "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
+    "blanks": [
+      {
+        "start": 14,
+        "end": 17
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5177,48 +6043,32 @@
     "end": 33,
     "meaning": "영향을 미치다",
     "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
+    "blanks": [
+      {
+        "start": 24,
+        "end": 33
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w7l1p10-51cd4b4b590d",
+    "id": "w7l1p10-34065bd1a18d",
     "week": 7,
     "lesson": 1,
     "page": 10,
     "file": "초급토익어휘_07주_1교시.pdf",
     "sentence": "The company's aim is to influence and attract target customers by  introducing a one-week trial of their new product.",
-    "answer": "attract",
+    "answer": "attract target customers",
     "start": 38,
-    "end": 45,
-    "meaning": "끌어들이다",
-    "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w7l1p10-5ab455c27cf9",
-    "week": 7,
-    "lesson": 1,
-    "page": 10,
-    "file": "초급토익어휘_07주_1교시.pdf",
-    "sentence": "The company's aim is to influence and attract target customers by  introducing a one-week trial of their new product.",
-    "answer": "target",
-    "start": 46,
-    "end": 52,
-    "meaning": "목표로 하는, 대상의",
-    "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w7l1p10-94752073db0d",
-    "week": 7,
-    "lesson": 1,
-    "page": 10,
-    "file": "초급토익어휘_07주_1교시.pdf",
-    "sentence": "The company's aim is to influence and attract target customers by  introducing a one-week trial of their new product.",
-    "answer": "customers",
-    "start": 53,
     "end": 62,
-    "meaning": "고객들",
+    "meaning": "목표 고객을 끌어들이다",
     "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
+    "blanks": [
+      {
+        "start": 38,
+        "end": 62
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5233,6 +6083,12 @@
     "end": 78,
     "meaning": "소개하는 것, 도입하는 것",
     "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
+    "blanks": [
+      {
+        "start": 67,
+        "end": 78
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5247,6 +6103,12 @@
     "end": 95,
     "meaning": "일주일 체험",
     "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
+    "blanks": [
+      {
+        "start": 81,
+        "end": 95
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5261,6 +6123,12 @@
     "end": 19,
     "meaning": "공개하다",
     "translation": "그들은제품의기능을공개하고/ 조만간시장에출시할예정입니다.",
+    "blanks": [
+      {
+        "start": 13,
+        "end": 19
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5275,6 +6143,12 @@
     "end": 53,
     "meaning": "출시하다",
     "translation": "그들은제품의기능을공개하고/ 조만간시장에출시할예정입니다.",
+    "blanks": [
+      {
+        "start": 47,
+        "end": 53
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5289,6 +6163,12 @@
     "end": 26,
     "meaning": "감사의 표시로",
     "translation": "감사의표시로/ 매장에서는특별할인혜택을제공했습니다. / 단골고객에게",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 26
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5303,6 +6183,12 @@
     "end": 64,
     "meaning": "할인",
     "translation": "감사의표시로/ 매장에서는특별할인혜택을제공했습니다. / 단골고객에게",
+    "blanks": [
+      {
+        "start": 56,
+        "end": 64
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5317,6 +6203,12 @@
     "end": 83,
     "meaning": "고객들",
     "translation": "감사의표시로/ 매장에서는특별할인혜택을제공했습니다. / 단골고객에게",
+    "blanks": [
+      {
+        "start": 74,
+        "end": 83
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5331,6 +6223,12 @@
     "end": 14,
     "meaning": "실시했다",
     "translation": "그들은설문조사를실시했습니다. / 고객의요구사항을파악하기위해",
+    "blanks": [
+      {
+        "start": 5,
+        "end": 14
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5345,6 +6243,12 @@
     "end": 52,
     "meaning": "고객의 요구",
     "translation": "그들은설문조사를실시했습니다. / 고객의요구사항을파악하기위해",
+    "blanks": [
+      {
+        "start": 38,
+        "end": 52
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5359,6 +6263,12 @@
     "end": 31,
     "meaning": "~을 전문으로 하다",
     "translation": "회사는전문적으로제공합니다. / 맞춤형소프트웨어솔루션을/ 중소기업을위한",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 31
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5373,6 +6283,12 @@
     "end": 9,
     "meaning": "고객들",
     "translation": "고객은할인을받을수있습니다. / 해당바우처를사용하여/ 다음구매시에",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 9
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5387,6 +6303,12 @@
     "end": 29,
     "meaning": "할인권, 상품권",
     "translation": "고객은할인을받을수있습니다. / 해당바우처를사용하여/ 다음구매시에",
+    "blanks": [
+      {
+        "start": 22,
+        "end": 29
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5401,62 +6323,56 @@
     "end": 47,
     "meaning": "할인",
     "translation": "고객은할인을받을수있습니다. / 해당바우처를사용하여/ 다음구매시에",
+    "blanks": [
+      {
+        "start": 39,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w7l1p13-07850be128eb",
+    "id": "w7l1p13-c5af9a7100fc",
     "week": 7,
     "lesson": 1,
     "page": 13,
     "file": "초급토익어휘_07주_1교시.pdf",
     "sentence": "The sales team tries to suit each customer's needs by offering customized suggestions.",
-    "answer": "suit",
+    "answer": "suit … needs",
     "start": 24,
-    "end": 28,
-    "meaning": "맞추다, 적합하다",
-    "translation": "영업팀은노력합니다. / 각고객의요구에맞추기위하여/ 맞춤화된제안을제공하여",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w7l1p13-a057f29d07ce",
-    "week": 7,
-    "lesson": 1,
-    "page": 13,
-    "file": "초급토익어휘_07주_1교시.pdf",
-    "sentence": "The sales team tries to suit each customer's needs by offering customized suggestions.",
-    "answer": "customer's needs",
-    "start": 34,
     "end": 50,
-    "meaning": "고객의 요구",
+    "meaning": "~의 요구를 충족시키다 (suit someone's needs)",
     "translation": "영업팀은노력합니다. / 각고객의요구에맞추기위하여/ 맞춤화된제안을제공하여",
+    "blanks": [
+      {
+        "start": 24,
+        "end": 28
+      },
+      {
+        "start": 45,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w7l1p15-143bb41be7c7",
+    "id": "w7l1p15-7927c5605da2",
     "week": 7,
     "lesson": 1,
     "page": 15,
     "file": "초급토익어휘_07주_1교시.pdf",
     "sentence": "Many customers prefer our products due to their high-quality and competitive prices.",
-    "answer": "customers",
+    "answer": "customers prefer",
     "start": 5,
-    "end": 14,
-    "meaning": "고객들",
-    "translation": "많은고객들이우리제품을선호합니다. / 고품질과경쟁력있는가격으로인해",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w7l1p15-f3373dbb3253",
-    "week": 7,
-    "lesson": 1,
-    "page": 15,
-    "file": "초급토익어휘_07주_1교시.pdf",
-    "sentence": "Many customers prefer our products due to their high-quality and competitive prices.",
-    "answer": "prefer",
-    "start": 15,
     "end": 21,
-    "meaning": "더 좋아하다, 선호하다",
+    "meaning": "고객들이 선호하다",
     "translation": "많은고객들이우리제품을선호합니다. / 고품질과경쟁력있는가격으로인해",
+    "blanks": [
+      {
+        "start": 5,
+        "end": 21
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5471,6 +6387,12 @@
     "end": 16,
     "meaning": "출시일",
     "translation": "신제품출시일은/ 예정돼있다. / 다음달로",
+    "blanks": [
+      {
+        "start": 4,
+        "end": 16
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5485,6 +6407,12 @@
     "end": 28,
     "meaning": "출시하다",
     "translation": "회사는출시할계획이다. / 새로운제품라인을/ 고객선호도를충족시키기위해",
+    "blanks": [
+      {
+        "start": 21,
+        "end": 28
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5499,6 +6427,12 @@
     "end": 47,
     "meaning": "제품군",
     "translation": "회사는출시할계획이다. / 새로운제품라인을/ 고객선호도를충족시키기위해",
+    "blanks": [
+      {
+        "start": 35,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5513,6 +6447,12 @@
     "end": 80,
     "meaning": "선호",
     "translation": "회사는출시할계획이다. / 새로운제품라인을/ 고객선호도를충족시키기위해",
+    "blanks": [
+      {
+        "start": 69,
+        "end": 80
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5527,6 +6467,12 @@
     "end": 24,
     "meaning": "발송하다",
     "translation": "회사는배송해드립니다. / 주문한제품을/ 귀하의배송주소로/ 영업일기준3일이내에",
+    "blanks": [
+      {
+        "start": 17,
+        "end": 24
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5541,6 +6487,12 @@
     "end": 44,
     "meaning": "제품 안내 책자",
     "translation": "매장관리자는새카탈로그를나눠주었습니다. / 매장에입장한소비자한명한명에게",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 44
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5555,6 +6507,12 @@
     "end": 54,
     "meaning": "진열대에 상품을 채우다",
     "translation": "우리슈퍼마켓은항상비축합니다. / 선반에신선한농산물을/ 매일아침",
+    "blanks": [
+      {
+        "start": 37,
+        "end": 54
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5569,6 +6527,12 @@
     "end": 11,
     "meaning": "단골 고객",
     "translation": "커피숍의단골손님으로서/ 그녀는감사의표시로무료음료를받았습니다.",
+    "blanks": [
+      {
+        "start": 5,
+        "end": 11
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5583,6 +6547,12 @@
     "end": 85,
     "meaning": "감사의 표시로",
     "translation": "커피숍의단골손님으로서/ 그녀는감사의표시로무료음료를받았습니다.",
+    "blanks": [
+      {
+        "start": 59,
+        "end": 85
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5597,6 +6567,12 @@
     "end": 27,
     "meaning": "선착순의",
     "translation": "선착순정책이적용되었습니다. / 기간한정혜택에/ 최신기기에대한",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 27
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5611,6 +6587,12 @@
     "end": 53,
     "meaning": "인쇄 광고",
     "translation": "지역신문에는/ 새레스토랑에대한창의적인인쇄광고가실렸습니다.",
+    "blanks": [
+      {
+        "start": 45,
+        "end": 53
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5625,6 +6607,12 @@
     "end": 47,
     "meaning": "부담 없이 연락하다",
     "translation": "질문이있는경우/ 언제든지당사고객지원팀에문의해주세요.",
+    "blanks": [
+      {
+        "start": 27,
+        "end": 47
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5639,6 +6627,12 @@
     "end": 48,
     "meaning": "~할 여력이 있다",
     "translation": "할인된가격으로/ 고객은인쇄광고에광고된제품을구매할수있습니다.",
+    "blanks": [
+      {
+        "start": 42,
+        "end": 48
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5653,6 +6647,12 @@
     "end": 88,
     "meaning": "인쇄 광고",
     "translation": "할인된가격으로/ 고객은인쇄광고에광고된제품을구매할수있습니다.",
+    "blanks": [
+      {
+        "start": 80,
+        "end": 88
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5667,6 +6667,12 @@
     "end": 29,
     "meaning": "방송 광고",
     "translation": "그들은재미있는광고를만들었습니다. / 신제품을홍보하기위해",
+    "blanks": [
+      {
+        "start": 19,
+        "end": 29
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5681,6 +6687,12 @@
     "end": 40,
     "meaning": "홍보하다",
     "translation": "그들은재미있는광고를만들었습니다. / 신제품을홍보하기위해",
+    "blanks": [
+      {
+        "start": 33,
+        "end": 40
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5695,6 +6707,12 @@
     "end": 10,
     "meaning": "끌어들이다",
     "translation": "이벤트에더많은참석자를유치하기위해/ 신제품의무료샘플을제공할예정입니다.",
+    "blanks": [
+      {
+        "start": 3,
+        "end": 10
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5709,6 +6727,12 @@
     "end": 58,
     "meaning": "나누어 주다",
     "translation": "이벤트에더많은참석자를유치하기위해/ 신제품의무료샘플을제공할예정입니다.",
+    "blanks": [
+      {
+        "start": 50,
+        "end": 58
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5723,6 +6747,12 @@
     "end": 29,
     "meaning": "설문 조사를 완료하다",
     "translation": "설문조사를완료하시면/ 상품권을받으실수있습니다.",
+    "blanks": [
+      {
+        "start": 10,
+        "end": 29
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5737,6 +6767,12 @@
     "end": 66,
     "meaning": "상품권",
     "translation": "설문조사를완료하시면/ 상품권을받으실수있습니다.",
+    "blanks": [
+      {
+        "start": 50,
+        "end": 66
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5751,6 +6787,12 @@
     "end": 29,
     "meaning": "충성도",
     "translation": "충성고객에대한보상으로/ 단골고객들은특별상품권을받았습니다.",
+    "blanks": [
+      {
+        "start": 22,
+        "end": 29
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5765,34 +6807,32 @@
     "end": 50,
     "meaning": "단골 고객들",
     "translation": "충성고객에대한보상으로/ 단골고객들은특별상품권을받았습니다.",
+    "blanks": [
+      {
+        "start": 35,
+        "end": 50
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w7l2p12-255569388b59",
+    "id": "w7l2p12-1f299db503b0",
     "week": 7,
     "lesson": 2,
     "page": 12,
     "file": "초급토익어휘_07주_2교시.pdf",
     "sentence": "As a reward for their loyalty, the loyal customers received a special gift certificate.",
-    "answer": "special",
+    "answer": "special gift certificate",
     "start": 62,
-    "end": 69,
-    "meaning": "특별한",
-    "translation": "충성고객에대한보상으로/ 단골고객들은특별상품권을받았습니다.",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w7l2p12-5abee4fc1607",
-    "week": 7,
-    "lesson": 2,
-    "page": 12,
-    "file": "초급토익어휘_07주_2교시.pdf",
-    "sentence": "As a reward for their loyalty, the loyal customers received a special gift certificate.",
-    "answer": "gift certificate",
-    "start": 70,
     "end": 86,
-    "meaning": "상품권",
+    "meaning": "특별 상품권",
     "translation": "충성고객에대한보상으로/ 단골고객들은특별상품권을받았습니다.",
+    "blanks": [
+      {
+        "start": 62,
+        "end": 86
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5807,6 +6847,12 @@
     "end": 28,
     "meaning": "~을 구독하다",
     "translation": "뉴스레터를구독하는것을잊지마세요. / 최신업데이트와혜택을받으려면",
+    "blanks": [
+      {
+        "start": 16,
+        "end": 28
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5821,34 +6867,32 @@
     "end": 33,
     "meaning": "전략",
     "translation": "마케팅전략의일환으로/ 전단지를배포할예정입니다. / 정보를제공하기위해/ 전연령층의소비자에게/ 신제품에대한",
+    "blanks": [
+      {
+        "start": 25,
+        "end": 33
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
-    "id": "w7l2p15-610854854809",
+    "id": "w7l2p15-0da7507f59a0",
     "week": 7,
     "lesson": 2,
     "page": 15,
     "file": "초급토익어휘_07주_2교시.pdf",
     "sentence": "As part of our marketing strategy, we will distribute leaflets to inform consumers of all ages about our new product.",
-    "answer": "distribute",
+    "answer": "distribute leaflets",
     "start": 43,
-    "end": 53,
-    "meaning": "배포하다",
-    "translation": "마케팅전략의일환으로/ 전단지를배포할예정입니다. / 정보를제공하기위해/ 전연령층의소비자에게/ 신제품에대한",
-    "translationSource": "PDF 수록 해석"
-  },
-  {
-    "id": "w7l2p15-4a26515e14b1",
-    "week": 7,
-    "lesson": 2,
-    "page": 15,
-    "file": "초급토익어휘_07주_2교시.pdf",
-    "sentence": "As part of our marketing strategy, we will distribute leaflets to inform consumers of all ages about our new product.",
-    "answer": "leaflets",
-    "start": 54,
     "end": 62,
-    "meaning": "전단지들",
+    "meaning": "전단을 배포하다",
     "translation": "마케팅전략의일환으로/ 전단지를배포할예정입니다. / 정보를제공하기위해/ 전연령층의소비자에게/ 신제품에대한",
+    "blanks": [
+      {
+        "start": 43,
+        "end": 62
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5863,6 +6907,12 @@
     "end": 94,
     "meaning": "모든 연령의 소비자들",
     "translation": "마케팅전략의일환으로/ 전단지를배포할예정입니다. / 정보를제공하기위해/ 전연령층의소비자에게/ 신제품에대한",
+    "blanks": [
+      {
+        "start": 73,
+        "end": 94
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5877,6 +6927,12 @@
     "end": 14,
     "meaning": "활용하다",
     "translation": "특별할인혜택을누리시고/ 구매시사은품도받아보세요.",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 14
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5891,6 +6947,12 @@
     "end": 48,
     "meaning": "출시 기념 혜택",
     "translation": "특별할인혜택을누리시고/ 구매시사은품도받아보세요.",
+    "blanks": [
+      {
+        "start": 30,
+        "end": 48
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5905,6 +6967,12 @@
     "end": 75,
     "meaning": "무료의",
     "translation": "특별할인혜택을누리시고/ 구매시사은품도받아보세요.",
+    "blanks": [
+      {
+        "start": 62,
+        "end": 75
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5919,6 +6987,12 @@
     "end": 84,
     "meaning": "합리적인 가격",
     "translation": "우리는자랑스럽게생각합니다. / 고객에게제공하는것을/ 합리적인가격으로/ 고품질의제품을",
+    "blanks": [
+      {
+        "start": 67,
+        "end": 84
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5933,6 +7007,12 @@
     "end": 13,
     "meaning": "계속 정보를 얻으세요",
     "translation": "최신홍보물에대한정보를받아보세요. / 뉴스레터를구독하여",
+    "blanks": [
+      {
+        "start": 0,
+        "end": 13
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   },
   {
@@ -5947,6 +7027,12 @@
     "end": 59,
     "meaning": "~을 구독하는 것",
     "translation": "최신홍보물에대한정보를받아보세요. / 뉴스레터를구독하여",
+    "blanks": [
+      {
+        "start": 45,
+        "end": 59
+      }
+    ],
     "translationSource": "PDF 수록 해석"
   }
 ]

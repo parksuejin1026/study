@@ -3,13 +3,15 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/'.tools'))
 import pymupdf
+from question_rules import GROUP_MEANINGS
 qs=json.loads((root/'questions.json').read_text(encoding='utf-8'))
 sentences=list(dict.fromkeys(q['sentence'] for q in qs))
 answers=list(dict.fromkeys(q['answer'] for q in qs))
 curated=json.loads((root/'scripts/curated-ko.json').read_text(encoding='utf-8'))
 definitions=curated['meanings']
+definitions.update(GROUP_MEANINGS)
 translations=curated['translations']
-assert all(a in definitions for a in answers),[a for a in answers if a not in definitions]
+assert all(q.get('groupMeaning') or q['answer'] in definitions for q in qs),[q['answer'] for q in qs if not q.get('groupMeaning') and q['answer'] not in definitions]
 docs={}
 norm=lambda s:re.sub(r'\s+',' ',s).strip()
 missing=[]
@@ -36,7 +38,7 @@ for q in qs:
    if korean:translations[q['sentence']]=' '.join(korean)
   if q['sentence'] not in translations:missing.append(q['sentence'])
  q['translation']=translations.get(q['sentence'],'')
- q['meaning']=definitions[q['answer']]
+ q['meaning']=q.pop('groupMeaning',None) or definitions[q['answer']]
  q['translationSource']='학습용 보완 해석' if q['week']<=3 else 'PDF 수록 해석'
 assert not missing,missing
 for q in qs:
