@@ -72,10 +72,10 @@ function optionsFor(q){
 function start(pool,title,mock){
  if(resume(title))return;
  if(!pool.length){toast('학습할 문제가 없습니다. 암기 완료 관리에서 문제를 해제할 수 있습니다.');return;}
- if(mock&&pool.length<35){toast(`암기 완료를 제외하면 ${pool.length}문항입니다. 35문항 모의고사를 위해 암기 완료를 해제하세요.`);return;}
+ if(mock&&pool.length<35){toast(`모의고사를 시작하려면 예문이 35개 이상 필요합니다. 현재 ${pool.length}개입니다.`);return;}
  // Avoid asking multiple blanks from the same sentence within a mock exam.
  let selected=shuffle(pool);
- if(mock){const sentences=new Set();selected=selected.filter(q=>{if(sentences.has(q.sentence))return false;sentences.add(q.sentence);return true;});if(selected.length<35){toast('서로 다른 예문이 35개 미만입니다. 암기 완료 문제를 해제하세요.');return;}selected=selected.slice(0,35);}
+ if(mock){const sentences=new Set();selected=selected.filter(q=>{if(sentences.has(q.sentence))return false;sentences.add(q.sentence);return true;});if(selected.length<35){toast('서로 다른 예문이 35개 이상 있어야 모의고사를 시작할 수 있습니다.');return;}selected=selected.slice(0,35);}
  session={title,mock,questions:selected,answers:{},options:{},started:Date.now(),deadline:mock?Date.now()+50*60*1000:null,finished:false};
  selected.forEach(q=>session.options[q.id]=optionsFor(q));position=0;state.activeSession=title;save();show('study');render();
  clearInterval(timer);if(mock){tick();timer=setInterval(tick,1000);}else $('timer').textContent='';
@@ -107,12 +107,12 @@ function finish(){
  for(const q of wrong)if(!session.answers[q.id])update(q.id,{wrong:true});
  if(session.mock){state.exams.unshift({date:new Date().toISOString(),correct,total,answered,seconds:Math.round((Date.now()-session.started)/1000)});state.exams=state.exams.slice(0,100);save();}
  show('result');dashboard();$('result').innerHTML=`<div class="result-card"><p class="eyebrow">${session.mock?'MOCK EXAM':'STUDY'} COMPLETE</p><h2>${escapeHTML(session.title)} 결과</h2><div class="score">${correct}<small> / ${total}</small></div><p>정답률 ${Math.round(correct/total*100)}% · 오답 ${answered-correct}개 · 미응답 ${total-answered}개</p><button id="result-retry" class="primary">이번 오답·미응답 다시 풀기</button><button id="result-home">학습 목록으로</button><div class="result-list">${wrong.map(q=>`<p>${q.week}주차 ${q.lesson}교시 ${q.page}쪽 · ${escapeHTML(q.sentence)}<br><b>${escapeHTML(q.answer)}</b></p>`).join('')}</div></div>`;
- $('result-retry').onclick=()=>start(wrong.filter(q=>!record(q.id).mastered),'이번 오답 다시 풀기',false);$('result-home').onclick=()=>show('home');$('result').scrollIntoView({behavior:'smooth'});
+ $('result-retry').onclick=()=>start(session.mock?wrong:wrong.filter(q=>!record(q.id).mastered),'이번 오답 다시 풀기',false);$('result-home').onclick=()=>show('home');$('result').scrollIntoView({behavior:'smooth'});
 }
 $('next').onclick=()=>{if(position===session.questions.length-1)finish();else{position++;save();render();}};
 $('prev').onclick=()=>{if(position>0){position--;save();render();}};
 $('exit').onclick=()=>{clearInterval(timer);state.activeSession=null;save();show('home');dashboard();};
-$('mock').onclick=()=>start(QUESTIONS.filter(q=>!record(q.id).mastered),'35문항 모의고사',true);
+$('mock').onclick=()=>start(QUESTIONS,'35문항 모의고사',true);
 $('retry').onclick=()=>start(QUESTIONS.filter(q=>record(q.id).wrong&&!record(q.id).mastered),'오답만 다시 풀기',false);
 $('memorize').onchange=e=>{update(session.questions[position].id,{mastered:e.target.checked});dashboard();};
 $('note').onclick=()=>{const q=session.questions[position];noteId=q.id;$('note-context').textContent=`${q.week}주차 ${q.lesson}교시 · ${q.page}쪽 / ${blankSentence(q)}`;$('note-text').value=record(q.id).note||'';$('note-status').textContent='입력할 때 자동 저장됩니다.';$('note-dialog').showModal();};

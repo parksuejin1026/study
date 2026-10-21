@@ -137,6 +137,18 @@ with sync_playwright() as p:
     page.set_viewport_size({'width': 390, 'height': 844})
     page.screenshot(path=str(ROOT / '.qa' / 'feedback-mobile.png'), full_page=True)
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+    # Mastery only excludes ordinary study; even full mastery permits an exam
+    # and reviewing its missed/unanswered questions.
+    page.locator('#exit').click()
+    page.evaluate('QUESTIONS.forEach(q=>state.items[q.id]={...record(q.id),mastered:true});save();dashboard()')
+    page.locator('#mock').click()
+    assert page.evaluate('session.mock && session.questions.length===35')
+    assert page.evaluate('session.questions.every(q=>record(q.id).mastered)')
+    page.reload()
+    assert page.evaluate('session.mock && session.questions.length===35')
+    page.evaluate('finish()')
+    page.locator('#result-retry').click()
+    assert page.evaluate('!session.mock && session.questions.length===35')
     assert not errors, errors
     browser.close()
 print(f'PASS: {len(questions)} questions; grouped blanks, option meanings, notes, resume, legacy records, and mock expiry.')
