@@ -23,7 +23,8 @@ function resume(title){
 }
 function blankSentence(q,html=false){
  let result='',cursor=0;
- for(const {start,end} of q.blanks||[{start:q.start,end:q.end}]){const text=q.sentence.slice(cursor,start);result+=(html?escapeHTML(text):text)+(html?'<span class="blank">________</span>':'________');cursor=end;}
+ const blanks=q.blanks||[{start:q.start,end:q.end}];
+ for(const [i,{start,end}] of blanks.entries()){const text=q.sentence.slice(cursor,start),label=blanks.length>1?`(${i+1}) `:'';result+=(html?escapeHTML(text):text)+(html?`<span class="blank">${label}________</span>`:`${label}________`);cursor=end;}
  const tail=q.sentence.slice(cursor);return result+(html?escapeHTML(tail):tail);
 }
 function toast(message){$('toast').textContent=message;$('toast').style.display='block';clearTimeout(toast.timeout);toast.timeout=setTimeout(()=>$('toast').style.display='none',3500);}
@@ -36,7 +37,7 @@ function dashboard(){
  $('attempted').textContent=QUESTIONS.filter(q=>record(q.id).attempts).length;
  $('wrong').textContent=QUESTIONS.filter(q=>record(q.id).wrong&&!record(q.id).mastered).length;
  $('mastered').textContent=QUESTIONS.filter(q=>record(q.id).mastered).length;
- $('scope-note').textContent=`중복을 제외한 예문 ${new Set(QUESTIONS.map(q=>q.sentence)).size}개 · ${QUESTIONS.length}문항. 설명용 밑줄은 제외하고, 떨어진 숙어는 모든 부분을 함께 비웁니다.`;
+ $('scope-note').textContent=`예문 ${QUESTIONS.length}개 · ${QUESTIONS.length}문항. 예문마다 출제 표현을 여러 빈칸으로 함께 묻습니다. 문장에 뜻을 알려준 단어는 출제하지 않습니다.`;
  const resumable=Object.keys(state.sessions).filter(title=>storedSession(title));
  $('resume-list').replaceChildren();$('resume-panel').hidden=!resumable.length;
  for(const title of resumable){const saved=state.sessions[title],b=document.createElement('button');b.textContent=`${title} 이어 풀기 · ${saved.position+1}/${saved.ids.length}`;b.onclick=()=>resume(title);$('resume-list').append(b);}
@@ -44,16 +45,28 @@ function dashboard(){
  const names={2:'어휘와 전치사의 연결',3:'토익 기본 어휘',4:'채용과 업무',5:'사무실과 직장 생활',6:'주차별 핵심 어휘',7:'주차별 핵심 어휘'};
  for(let week=2;week<=7;week++){
   const all=QUESTIONS.filter(q=>q.week===week),active=all.filter(q=>!record(q.id).mastered),done=all.filter(q=>record(q.id).mastered).length;
-  const b=document.createElement('button');b.className='week-card';b.innerHTML=`<span class="number">WEEK ${String(week).padStart(2,'0')}</span><span class="arrow">↗</span><h3>${week}주차</h3><p>${names[week]}</p><p>예문 ${new Set(all.map(q=>q.sentence)).size}개 · 빈칸 ${all.length}개</p><p>학습 가능 ${active.length} · 암기 완료 ${done}</p><div class="mini-progress"><i style="width:${done/all.length*100}%"></i></div>`;
+  const b=document.createElement('button');b.className='week-card';b.innerHTML=`<span class="number">WEEK ${String(week).padStart(2,'0')}</span><span class="arrow">↗</span><h3>${week}주차</h3><p>${names[week]}</p><p>예문 ${all.length}개 · ${all.length}문항</p><p>학습 가능 ${active.length} · 암기 완료 ${done}</p><div class="mini-progress"><i style="width:${done/all.length*100}%"></i></div>`;
   b.onclick=()=>start(active,`${week}주차 학습`,false);$('weeks').append(b);
  }
 }
 function optionsFor(q){
  const normalize=s=>s.toLowerCase().trim();
  const seen=new Set([normalize(q.answer)]),pool=[];
- const shape=x=>(x.blanks||[x]).length===(q.blanks||[q]).length;
- const candidates=shuffle(QUESTIONS.filter(x=>shape(x)&&x.week===q.week&&x.lesson===q.lesson)).concat(shuffle(QUESTIONS.filter(shape)),shuffle(QUESTIONS));
- for(const x of candidates){const key=normalize(x.answer);if(seen.has(key))continue;seen.add(key);pool.push({answer:x.answer,meaning:x.meaning});if(pool.length===3)break;}
+ const targets=q.targets||[q];
+ // Replace a whole teaching expression, preserving the number/order of blanks.
+ const candidates=shuffle(QUESTIONS.filter(x=>x.week===q.week&&x.lesson===q.lesson)).concat(shuffle(QUESTIONS));
+ for(const source of candidates){
+  for(const replacement of source.targets||[source]){
+   for(const [i,target] of targets.entries()){
+    if(replacement.blanks.length!==target.blanks.length)continue;
+    const parts=targets.map((t,j)=>j===i?replacement:t),slots=[];
+    for(const [j,t] of parts.entries())t.blanks.forEach((b,k)=>slots.push({start:targets[j].blanks[k].start,answer:(j===i?source.sentence:q.sentence).slice(b.start,b.end)}));
+    const answer=slots.sort((a,b)=>a.start-b.start).map(s=>s.answer).join(' … '),key=normalize(answer);
+    if(seen.has(key))continue;seen.add(key);pool.push({answer,meaning:parts.map(t=>t.meaning).join(' / ')});
+    if(pool.length===3)return shuffle([{answer:q.answer,meaning:q.meaning},...pool]);
+   }
+  }
+ }
  return shuffle([{answer:q.answer,meaning:q.meaning},...pool]);
 }
 function start(pool,title,mock){
@@ -74,8 +87,9 @@ function render(){
  $('session-title').textContent=session.title;$('q-meta').textContent=`${q.week}주차 · ${q.lesson}교시 · PDF ${q.page}쪽`;$('position').textContent=`${position+1} / ${session.questions.length}`;
  $('bar').style.width=`${(position+1)/session.questions.length*100}%`;
  $('sentence').innerHTML=blankSentence(q,true);
+ $('answer-guide').textContent=q.blanks.length>1?'빈칸 번호 순서대로 들어갈 표현을 고르세요.':'빈칸에 들어갈 표현을 고르세요.';
  $('options').innerHTML='';session.options[q.id].forEach((option,i)=>{
-  const value=option.answer,b=document.createElement('button');b.innerHTML=`<span>${i+1}</span>${escapeHTML(value)}`;b.disabled=!!a;
+  const value=option.answer,b=document.createElement('button');b.innerHTML=`<span>${i+1}</span>${escapeHTML(value.split(' … ').map((part,j)=>q.blanks.length>1?`(${j+1}) ${part}`:part).join(' / '))}`;b.disabled=!!a;
   if(a&&value===q.answer)b.classList.add('correct');if(a&&a.choice===value&&value!==q.answer)b.classList.add('incorrect');
   b.onclick=()=>answer(q,value);$('options').append(b);
  });

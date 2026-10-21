@@ -3,6 +3,7 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 qs=json.loads((root/'questions.json').read_text(encoding='utf-8'))
 assert len({q['id'] for q in qs})==len(qs)
+assert len({q['sentence'] for q in qs})==len(qs)
 for q in qs:
  blanks=q['blanks']
  assert blanks and all(0<=b['start']<b['end']<=len(q['sentence']) for b in blanks),q
@@ -12,7 +13,7 @@ for q in qs:
  assert (root/q['file']).is_file()
  assert q['week'] in range(2,8)
  assert q['week']!=2 or (q['lesson']==1 and q['page'] in range(5,14))
-rows=['# PDF 학습 범위 대조표','',f'예문 {len(set(q["sentence"] for q in qs))}개 · {len(qs)}문항. 3주차의 설명용 밑줄은 제외하며, 떨어진 숙어는 모든 부분을 한 문제에서 함께 비웁니다. 아래 … 표시는 사이의 문장을 남기는 분리 빈칸입니다.','', '| 주차 | 예문 | 문항 |','|---|---:|---:|']
+rows=['# PDF 학습 범위 대조표','',f'예문 {len(set(q["sentence"] for q in qs))}개 · {len(qs)}문항. 예문 하나당 한 문제로 모든 출제 표현을 함께 비웁니다. 문장에 뜻을 알려준 설명용 단어는 제외합니다. 아래 … 표시는 사이의 문장을 남기는 분리 빈칸입니다.','', '| 주차 | 예문 | 문항 |','|---|---:|---:|']
 for w in range(2,8):
  a=[q for q in qs if q['week']==w]
  rows.append(f'| {w} | {len(set(q["sentence"] for q in a))} | {len(a)} |')

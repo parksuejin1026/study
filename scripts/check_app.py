@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 
 questions = json.loads((ROOT / 'questions.json').read_text(encoding='utf-8'))
 assert len({q['id'] for q in questions}) == len(questions)
-assert len({q['sentence'] for q in questions}) == 236
+assert len(questions) == len({q['sentence'] for q in questions}) == 236
 assert len([q for q in questions if q['week'] == 3]) == 69
 occur = [q for q in questions if 'occur unexpectedly' in q['sentence']]
 assert len(occur) == 1 and occur[0]['answer'] == 'occur'
@@ -32,6 +32,13 @@ with sync_playwright() as p:
     page.evaluate('localStorage.clear()')
     page.reload()
     assert page.locator('#weeks button').count() == 6
+    # Every example has four combinations with the same number of blank slots.
+    assert page.evaluate("""QUESTIONS.every(q=>{
+      const options=optionsFor(q);
+      return options.length===4 && new Set(options.map(o=>o.answer)).size===4 &&
+        options.filter(o=>o.answer===q.answer).length===1 &&
+        options.every(o=>o.answer.split(' … ').length===q.blanks.length);
+    })""")
     page.locator('#weeks button').first.click()
     assert page.locator('#feedback').is_hidden()
     # Force a real discontinuous expression so its displayed blanks and note
@@ -119,6 +126,12 @@ with sync_playwright() as p:
     assert page.locator('#home').is_visible()
     page.locator('#weeks button').nth(1).click()
     # Correct answer and mobile presentation.
+    page.locator('#exit').click()
+    page.locator('#weeks button').nth(2).click()
+    page.evaluate('position=session.questions.findIndex(q=>q.targets.length>1);save();render()')
+    assert page.locator('#sentence .blank').count() > 1
+    assert '(1)' in page.locator('#options').inner_text()
+    assert len(page.evaluate('session.questions')) == 28
     page.evaluate("answer(session.questions[position],session.questions[position].answer)")
     assert page.locator('#options button.correct').count() == 1
     page.set_viewport_size({'width': 390, 'height': 844})

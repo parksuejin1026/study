@@ -3,7 +3,7 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(root/'.tools'))
 import pymupdf
-from question_rules import GROUP_MEANINGS
+from question_rules import GROUP_MEANINGS, combine_sentence_questions
 qs=json.loads((root/'questions.json').read_text(encoding='utf-8'))
 sentences=list(dict.fromkeys(q['sentence'] for q in qs))
 answers=list(dict.fromkeys(q['answer'] for q in qs))
@@ -43,6 +43,7 @@ for q in qs:
 assert not missing,missing
 for q in qs:
  if q['answer']=='addressed':q['meaning']='주소를 적었다' if 'envelope' in q['sentence'] else '연설했다'
+qs=combine_sentence_questions(qs)
 (root/'questions.json').write_text(json.dumps(qs,ensure_ascii=False,indent=2),encoding='utf-8')
 (root/'questions.js').write_text('window.QUESTIONS = '+json.dumps(qs,ensure_ascii=False)+';',encoding='utf-8')
 print(f'Complete: {len(qs)} blanks, {len(sentences)} sentences, {len(answers)} definitions')

@@ -97,3 +97,36 @@ def prepare_questions(questions):
                 q['id'] = f"w{q['week']}l{q['lesson']}p{q['page']}-{identity}"
             result.append(q)
     return result
+
+
+def combine_sentence_questions(questions):
+    """One question per example, retaining all eligible underline spans.
+
+    Call after enrichment so each original target retains its own definition.
+    Explanatory glosses have already been excluded during PDF extraction.
+    """
+    groups = {}
+    for q in questions:
+        groups.setdefault(q['sentence'], []).append(q)
+    result = []
+    for sentence, entries in groups.items():
+        targets = sorted((t for q in entries for t in q.get('targets', [q])),
+                         key=lambda t: t['start'])
+        unique = {}
+        for t in targets:
+            spans = tuple((b['start'], b['end']) for b in t['blanks'])
+            unique.setdefault(spans, t)
+        targets = list(unique.values())
+        q = dict(entries[0])
+        q['targets'] = [{k: t[k] for k in ('answer', 'meaning', 'blanks', 'start', 'end')}
+                        for t in targets]
+        q['blanks'] = sorted((dict(b) for t in targets for b in t['blanks']),
+                             key=lambda b: b['start'])
+        q['start'], q['end'] = q['blanks'][0]['start'], q['blanks'][-1]['end']
+        q['answer'] = ' … '.join(sentence[b['start']:b['end']] for b in q['blanks'])
+        q['meaning'] = ' / '.join(t['meaning'] for t in targets)
+        if len(targets) > 1:
+            identity = hashlib.sha256(f"sentence|{sentence}|{q['blanks']}".encode()).hexdigest()[:12]
+            q['id'] = f"w{q['week']}l{q['lesson']}p{q['page']}-{identity}"
+        result.append(q)
+    return result
