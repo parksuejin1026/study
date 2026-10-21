@@ -947,7 +947,7 @@
     "answer": "occur",
     "start": 21,
     "end": 26,
-    "meaning": "????",
+    "meaning": "발생하다",
     "translation": "실시간 발표 중에 기술적 문제가 예기치 않게 발생할 수 있다.",
     "translationSource": "학습용 보완 해석"
   },
@@ -961,7 +961,7 @@
     "answer": "unexpectedly",
     "start": 27,
     "end": 39,
-    "meaning": "??? ??",
+    "meaning": "예상치 못하게",
     "translation": "실시간 발표 중에 기술적 문제가 예기치 않게 발생할 수 있다.",
     "translationSource": "학습용 보완 해석"
   },
@@ -1087,8 +1087,8 @@
     "answer": "enforcing",
     "start": 37,
     "end": 46,
-    "meaning": "???? ?",
-    "translation": "보안팀은 직장에서 안전 수칙을 시행할 책임이 있다.",
+    "meaning": "시행하는 것, 준수하도록 하는 것 (enforce의 -ing형)",
+    "translation": "보안팀은 직장에서 안전 수칙이 지켜지도록 할 책임이 있다.",
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1102,7 +1102,7 @@
     "start": 47,
     "end": 59,
     "meaning": "안전 수칙",
-    "translation": "보안팀은 직장에서 안전 수칙을 시행할 책임이 있다.",
+    "translation": "보안팀은 직장에서 안전 수칙이 지켜지도록 할 책임이 있다.",
     "translationSource": "학습용 보완 해석"
   },
   {
@@ -1451,7 +1451,7 @@
     "answer": "small",
     "start": 55,
     "end": 60,
-    "meaning": "????",
+    "meaning": "작은, 소규모의",
     "translation": "정부는 소규모 사업체를 지원하기 위해 재정 지원을 제공했다.",
     "translationSource": "학습용 보완 해석"
   },
@@ -1465,7 +1465,7 @@
     "answer": "businesses",
     "start": 61,
     "end": 71,
-    "meaning": "????",
+    "meaning": "기업들, 사업체들",
     "translation": "정부는 소규모 사업체를 지원하기 위해 재정 지원을 제공했다.",
     "translationSource": "학습용 보완 해석"
   },
@@ -1843,7 +1843,7 @@
     "answer": "lab",
     "start": 4,
     "end": 7,
-    "meaning": "???",
+    "meaning": "실험실, 연구실",
     "translation": "연구실에는 최첨단 도구가 완비되어 있다.",
     "translationSource": "학습용 보완 해석"
   },
@@ -1871,7 +1871,7 @@
     "answer": "equipped",
     "start": 17,
     "end": 25,
-    "meaning": "????",
+    "meaning": "장비를 갖춘",
     "translation": "연구실에는 최첨단 도구가 완비되어 있다.",
     "translationSource": "학습용 보완 해석"
   },
@@ -2249,7 +2249,7 @@
     "answer": "resume and",
     "start": 57,
     "end": 67,
-    "meaning": "????",
+    "meaning": "이력서와 (resume: 이력서, and: ~와)",
     "translation": "일자리공석을위해서이력서, 자기소개서를포함하여지원서를제출하세요.",
     "translationSource": "PDF 수록 해석"
   },
@@ -2417,7 +2417,7 @@
     "answer": "bachelor's",
     "start": 54,
     "end": 64,
-    "meaning": "???",
+    "meaning": "학사의 (bachelor’s degree: 학사 학위)",
     "translation": "ABC 회사는학사학위를가진매력적인지원자를찾고있다.",
     "translationSource": "PDF 수록 해석"
   },
@@ -2431,7 +2431,7 @@
     "answer": "degree",
     "start": 65,
     "end": 71,
-    "meaning": "??",
+    "meaning": "학위",
     "translation": "ABC 회사는학사학위를가진매력적인지원자를찾고있다.",
     "translationSource": "PDF 수록 해석"
   },
@@ -2571,7 +2571,7 @@
     "answer": "was",
     "start": 14,
     "end": 17,
-    "meaning": "~??",
+    "meaning": "~이었다 (be동사의 과거형)",
     "translation": "그후보자는매우적합한자격을갖추고있었다. / 그리더십역할에",
     "translationSource": "PDF 수록 해석"
   },
@@ -3131,7 +3131,7 @@
     "answer": "equipment",
     "start": 41,
     "end": 50,
-    "meaning": "??",
+    "meaning": "장비",
     "translation": "회사는투자했습니다. / 최신장비에/ 생산성을향상시키기위하여",
     "translationSource": "PDF 수록 해석"
   },
@@ -3929,7 +3929,7 @@
     "answer": "timely",
     "start": 37,
     "end": 43,
-    "meaning": "?????",
+    "meaning": "시기적절한, 제때의",
     "translation": "생산팀은적시에조정할수있었습니다. / 제조공정을",
     "translationSource": "PDF 수록 해석"
   },
@@ -3943,7 +3943,7 @@
     "answer": "adjustment",
     "start": 44,
     "end": 54,
-    "meaning": "??",
+    "meaning": "조정",
     "translation": "생산팀은적시에조정할수있었습니다. / 제조공정을",
     "translationSource": "PDF 수록 해석"
   },
@@ -3971,7 +3971,7 @@
     "answer": "measures",
     "start": 48,
     "end": 56,
-    "meaning": "???",
+    "meaning": "조치, 대책",
     "translation": "회사는새로운안전조치를즉시시행하기로결정했습니다.",
     "translationSource": "PDF 수록 해석"
   },
@@ -3985,7 +3985,7 @@
     "answer": "promptly",
     "start": 57,
     "end": 65,
-    "meaning": "???",
+    "meaning": "신속하게, 지체 없이",
     "translation": "회사는새로운안전조치를즉시시행하기로결정했습니다.",
     "translationSource": "PDF 수록 해석"
   },
@@ -4587,7 +4587,7 @@
     "answer": "ongoing",
     "start": 4,
     "end": 11,
-    "meaning": "?? ??",
+    "meaning": "계속 진행 중인",
     "translation": "환경보호에관한지속적인문제가/ 논의될것입니다. / 회의에서",
     "translationSource": "PDF 수록 해석"
   },
@@ -4601,7 +4601,7 @@
     "answer": "issue",
     "start": 12,
     "end": 17,
-    "meaning": "??",
+    "meaning": "문제, 쟁점",
     "translation": "환경보호에관한지속적인문제가/ 논의될것입니다. / 회의에서",
     "translationSource": "PDF 수록 해석"
   },
@@ -5021,7 +5021,7 @@
     "answer": "partnership",
     "start": 85,
     "end": 96,
-    "meaning": "??, ??",
+    "meaning": "협력 관계, 제휴",
     "translation": "몇달간의협상끝에/ 두회사는마침내파트너십계약조건을합의했습니다.",
     "translationSource": "PDF 수록 해석"
   },
@@ -5203,7 +5203,7 @@
     "answer": "target",
     "start": 46,
     "end": 52,
-    "meaning": "???, ???",
+    "meaning": "목표로 하는, 대상의",
     "translation": "회사의목표는대상고객에게영향을미치고관심을끄는것입니다. / 신제품의1주일시험판을출시하여",
     "translationSource": "PDF 수록 해석"
   },
@@ -5455,7 +5455,7 @@
     "answer": "prefer",
     "start": 15,
     "end": 21,
-    "meaning": "????",
+    "meaning": "더 좋아하다, 선호하다",
     "translation": "많은고객들이우리제품을선호합니다. / 고품질과경쟁력있는가격으로인해",
     "translationSource": "PDF 수록 해석"
   },
@@ -5777,7 +5777,7 @@
     "answer": "special",
     "start": 62,
     "end": 69,
-    "meaning": "???",
+    "meaning": "특별한",
     "translation": "충성고객에대한보상으로/ 단골고객들은특별상품권을받았습니다.",
     "translationSource": "PDF 수록 해석"
   },
@@ -5833,7 +5833,7 @@
     "answer": "distribute",
     "start": 43,
     "end": 53,
-    "meaning": "????",
+    "meaning": "배포하다",
     "translation": "마케팅전략의일환으로/ 전단지를배포할예정입니다. / 정보를제공하기위해/ 전연령층의소비자에게/ 신제품에대한",
     "translationSource": "PDF 수록 해석"
   },
@@ -5847,7 +5847,7 @@
     "answer": "leaflets",
     "start": 54,
     "end": 62,
-    "meaning": "???",
+    "meaning": "전단지들",
     "translation": "마케팅전략의일환으로/ 전단지를배포할예정입니다. / 정보를제공하기위해/ 전연령층의소비자에게/ 신제품에대한",
     "translationSource": "PDF 수록 해석"
   },
